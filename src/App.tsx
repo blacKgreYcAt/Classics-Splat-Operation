@@ -122,11 +122,11 @@ function App() {
           {showSettings && (
             <div className="bg-white border-8 border-ink-black p-6 brutal-shadow grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 transform skew-x-1">
               {[
-                { key: 'title', label: '標題' },
-                { key: 'stage', label: '關卡/STAGE' },
-                { key: 'intro', label: '任務簡介' },
-                { key: 'interpretation', label: '解讀古文' },
-                { key: 'training', label: '開始訓練/挑戰' },
+                { key: 'title', label: <PhoneticText text="標題" showPhonetic={zhuyinSettings.title} /> },
+                { key: 'stage', label: <PhoneticText text="關卡/STAGE" showPhonetic={zhuyinSettings.stage} /> },
+                { key: 'intro', label: <PhoneticText text="任務簡介" showPhonetic={zhuyinSettings.intro} /> },
+                { key: 'interpretation', label: <PhoneticText text="解讀古文" showPhonetic={zhuyinSettings.interpretation} /> },
+                { key: 'training', label: <PhoneticText text="開始訓練/挑戰" showPhonetic={zhuyinSettings.training} /> },
               ].map((item) => (
                 <button
                   key={item.key}
