@@ -1,25 +1,25 @@
-import { world1Lessons } from './lessons/world1';
-import { world2Lessons } from './lessons/world2';
-import { world3Lessons } from './lessons/world3';
-import { world4Lessons } from './lessons/world4';
-import { world5Lessons } from './lessons/world5';
-import { world6Lessons } from './lessons/world6';
-import { world7Lessons } from './lessons/world7';
-import { world8Lessons } from './lessons/world8';
-import { world9Lessons } from './lessons/world9';
-import { world10Lessons } from './lessons/world10';
-import { world11Lessons } from './lessons/world11';
-import { world12Lessons } from './lessons/world12';
-import { world13Lessons } from './lessons/world13';
-import { world14Lessons } from './lessons/world14';
-import { world15Lessons } from './lessons/world15';
-import { world16Lessons } from './lessons/world16';
-import { world17Lessons } from './lessons/world17';
-import { world18Lessons } from './lessons/world18';
-import { world19Lessons } from './lessons/world19';
-import { world20Lessons } from './lessons/world20';
+import { world1Lessons } from './world1';
+import { world2Lessons } from './world2';
+import { world3Lessons } from './world3';
+import { world4Lessons } from './world4';
+import { world5Lessons } from './world5';
+import { world6Lessons } from './world6';
+import { world7Lessons } from './world7';
+import { world8Lessons } from './world8';
+import { world9Lessons } from './world9';
+import { world10Lessons } from './world10';
+import { world11Lessons } from './world11';
+import { world12Lessons } from './world12';
+import { world13Lessons } from './world13';
+import { world14Lessons } from './world14';
+import { world15Lessons } from './world15';
+import { world16Lessons } from './world16';
+import { world17Lessons } from './world17';
+import { world18Lessons } from './world18';
+import { world19Lessons } from './world19';
+import { world20Lessons } from './world20';
 
-import { shishuoLessons } from './shishuo/index';
+import { shishuoLessons } from '../shishuo/index';
 
 export interface Flashcard {
   id: string;
