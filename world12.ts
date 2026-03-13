@@ -1,159 +1,196 @@
 import { Lesson } from '../lessons';
 
-export const world6Lessons: Omit<Lesson, 'phoneticOriginalText'>[] = [
+export const world1Lessons: Omit<Lesson, 'phoneticOriginalText'>[] = [
   {
-    id: "6-1", world: 6, stage: 1, book: "雍也第六", englishBook: "Yong Ye VI", title: "一簞食，一瓢飲", englishTitle: "A Simple Life",
-    originalText: "子曰：「賢哉，回也！一簞食，一瓢飲，在陋巷，人不堪其憂，回也不改其樂。賢哉，回也！」",
-    translation: "孔子說：「顏回多麼賢德啊！吃的是一竹筐飯，喝的是一瓢水，住在簡陋的小巷子裡，別人都受不了那種窮困，顏回卻依然快樂。賢德啊，顏回！」",
-    storyTitle: "最快樂的窮學生",
-    storyContent: "顏回是孔子最喜歡的學生。他家裡很窮，每天只能吃簡單的飯菜，住破舊的房子，但他的臉上總是帶著笑容。孔子稱讚他，因為顏回追求的是心靈的充實和學問的進步，而不是物質的享受。",
+    id: "1-1", world: 1, stage: 1, book: "學而第一", englishBook: "Xue Er I", title: "快樂的學習", englishTitle: "Joy of Learning",
+    originalText: "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」",
+    translation: "孔子說：「學了知識並經常複習，不也是很令人高興嗎？有志同道合的朋友從遠方而來，不也是很快樂嗎？別人不了解我，我也不生氣，不也是一個有德的君子嗎？」",
+    storyTitle: "小明的腳踏車與遠方的朋友",
+    storyContent: "有一天，小明終於學會了騎腳踏車！他覺得很開心，所以每天放學後，他都會去公園練習騎幾圈，越騎越熟練，心裡覺得非常有成就感。\n\n過了幾天，小明住在高雄的表哥來台北找他玩。小明好久沒見到表哥了，兩個人開心地聊著天，分享彼此最近發生的趣事。\n\n後來，小明在學校考試考了一百分，但是老師忘記稱讚他了。小明雖然有點失望，但他想：「沒關係，我自己知道我有努力就好，不需要因為別人不知道而生氣。」",
     flashcards: [
-      { id: "f6-1-1", term: "一簞食", definition: "一竹筐的飯（形容飲食簡單）" },
-      { id: "f6-1-2", term: "不改其樂", definition: "不改變他內心的快樂" }
+      { id: "f1-1-1", term: "學而時習之", definition: "學了新知識後，經常去練習它" },
+      { id: "f1-1-2", term: "不亦說乎", definition: "這不是很高興嗎？（「說」通「悅」）" },
+      { id: "f1-1-3", term: "不亦慍", definition: "不生氣、不怨恨" }
     ]
   },
   {
-    id: "6-2", world: 6, stage: 2, book: "雍也第六", englishBook: "Yong Ye VI", title: "力不足者", englishTitle: "Insufficient Strength",
-    originalText: "冉求曰：「非不說子之道，力不足也。」子曰：「力不足者，中道而廢。今女畫。」",
-    translation: "冉求說：「我不是不喜歡老師您的學說，而是我的力量不夠。」孔子說：「力量不夠的人，走到半路才廢止。現在你卻是給自己畫了界限，不肯前進。」",
-    storyTitle: "不要給自己設限",
-    storyContent: "冉求覺得學習太難了，想放棄。孔子鼓勵他：真正力氣不夠的人，是努力到一半才倒下的；而你現在是還沒開始努力，就先跟自己說「我做不到」。這教我們，信心是成功的關鍵！",
+    id: "1-2", world: 1, stage: 2, book: "學而第一", englishBook: "Xue Er I", title: "孝順與友愛", englishTitle: "Filial Piety & Brotherhood",
+    originalText: "有子曰：「其為人也孝弟，而好犯上者，鮮矣；不好犯上，而好作亂者，未之有也。君子務本，本立而道生。孝弟也者，其為仁之本與！」",
+    translation: "有子說：「一個做人孝順父母、友愛兄弟的人，卻喜歡冒犯長輩或長官的，那是很少見的；不喜歡冒犯長輩或長官，卻喜歡搗亂造反的人，從來沒有過。君子致力於根本，根本建立了，做人的道理就會產生。孝和弟，就是『仁』的根本吧！」",
+    storyTitle: "蓋房子的地基",
+    storyContent: "蓋房子最重要的就是地基，地基打得穩，房子才不會倒。\n\n有子說，一個人在家裡如果能孝順父母、友愛兄弟姊妹（這就是地基），他在外面通常就不會去頂撞長輩或長官。既然不會頂撞長官，當然就不會去搗亂做壞事了。\n\n所以，一個有修養的君子，會專心把最根本的事情做好。根本建立起來了，做人處事的道理自然就會產生。孝順和友愛，就是培養『仁愛之心』的根本喔！",
     flashcards: [
-      { id: "f6-2-1", term: "中道而廢", definition: "走到半路就放棄" },
-      { id: "f6-2-2", term: "畫", definition: "畫地自限、不求進步" }
+      { id: "f1-2-1", term: "孝弟", definition: "孝順父母，友愛兄弟（弟通悌）" },
+      { id: "f1-2-2", term: "鮮矣", definition: "很少見、極少" },
+      { id: "f1-2-3", term: "務本", definition: "專心致力於根本的事物" }
     ]
   },
   {
-    id: "6-3", world: 6, stage: 3, book: "雍也第六", englishBook: "Yong Ye VI", title: "女為君子儒", englishTitle: "Be a Gentleman Scholar",
-    originalText: "子謂子夏曰：「女為君子儒，無為小人儒。」",
-    translation: "孔子對子夏說：「你要做一個君子式的讀書人，不要做一個小人式的讀書人。」",
-    storyTitle: "讀書的目的",
-    storyContent: "孔子提醒子夏：讀書是為了提升品德、幫助世界（君子儒），而不是為了炫耀知識、追求名利（小人儒）。這教我們，學習的出發點非常重要。",
+    id: "1-3", world: 1, stage: 3, book: "學而第一", englishBook: "Xue Er I", title: "真誠最重要", englishTitle: "Sincerity Matters Most",
+    originalText: "子曰：「巧言令色，鮮矣仁！」",
+    translation: "孔子說：「花言巧語、滿臉討好表情的人，很少有真正的仁德。」",
+    storyTitle: "糖果包裝紙",
+    storyContent: "有時候我們會看到包裝得很漂亮的糖果，但打開來吃卻發現一點都不好吃。\n\n孔子說，有些人講話特別好聽（巧言），表情也故意裝得很討好別人（令色），這樣的人，心裡通常很少有真正的善良和真誠（仁）。\n\n這告訴我們，交朋友不能只看表面，真正的好朋友是真心誠意的，不需要靠花言巧語來騙人喔！",
     flashcards: [
-      { id: "f6-3-1", term: "君子儒", definition: "有高尚品德、志在天下的讀書人" },
-      { id: "f6-3-2", term: "小人儒", definition: "只重瑣碎知識、追求私利的讀書人" }
+      { id: "f1-3-1", term: "巧言", definition: "好聽但虛偽的話" },
+      { id: "f1-3-2", term: "令色", definition: "討好別人的臉色" },
+      { id: "f1-3-3", term: "鮮矣仁", definition: "很少有真正的仁德" }
     ]
   },
   {
-    id: "6-4", world: 6, stage: 4, book: "雍也第六", englishBook: "Yong Ye VI", title: "行不由徑", englishTitle: "Not Taking Shortcuts",
-    originalText: "子游為武城宰。子曰：「女得人焉耳乎？」曰：「有澹臺滅明者，行不由徑，非公事，未嘗至於偃之室也。」",
-    translation: "子游做了武城的長官。孔子問：「你在那裡得到人才了嗎？」子游說：「有個叫澹臺滅明的人，走路不走小路捷徑，如果不是為了公事，從來不到我的辦公室來。」",
-    storyTitle: "正直的公務員",
-    storyContent: "子游發現了一個優秀的人才。這個人做事非常正直，不走歪門左道（不走捷徑），也不會為了私人利益去巴結長官。孔子聽了很高興，因為這就是真正的君子風範。",
+    id: "1-4", world: 1, stage: 4, book: "學而第一", englishBook: "Xue Er I", title: "每天反省自己", englishTitle: "Daily Self-Reflection",
+    originalText: "曾子曰：「吾日三省吾身：為人謀而不忠乎？與朋友交而不信乎？傳不習乎？」",
+    translation: "曾子說：「我每天多次反省自己：替別人辦事有沒有盡心盡力？與朋友交往有沒有誠實守信？老師傳授的學業有沒有複習？」",
+    storyTitle: "曾子的三本日記",
+    storyContent: "孔子有一個學生叫曾子，他非常注重自己的品德。想像一下，曾子好像每天睡覺前都會寫三本心裡的日記。\n\n第一本日記問自己：「今天替別人辦事情，有沒有盡心盡力去做呢？還是隨隨便便敷衍了事？」\n\n第二本日記問自己：「今天跟朋友相處，有沒有說話算話？有沒有誠實守信？」\n\n第三本日記問自己：「今天老師教我的知識，我有沒有認真複習？還是聽過就忘記了？」",
     flashcards: [
-      { id: "f6-4-1", term: "行不由徑", definition: "走路不走小路（比喻做事光明正大）" },
-      { id: "f6-4-2", term: "未嘗", definition: "從來沒有" }
+      { id: "f1-4-1", term: "三省吾身", definition: "每天多次反省自己" },
+      { id: "f1-4-2", term: "忠", definition: "盡心盡力" },
+      { id: "f1-4-3", term: "信", definition: "誠實、守信用" }
     ]
   },
   {
-    id: "6-5", world: 6, stage: 5, book: "雍也第六", englishBook: "Yong Ye VI", title: "孟之反不伐", englishTitle: "Meng Zhi Fan's Modesty",
-    originalText: "子曰：「孟之反不伐，奔而殿，將入門，策其馬，曰：『非敢後也，馬不進也。』」",
-    translation: "孔子說：「孟之反不誇耀自己。軍隊潰敗時他留在最後掩護，將要進城門時，他鞭打著馬說：『不是我敢於留在後面，是馬跑不快啊。』」",
-    storyTitle: "低調的英雄",
-    storyContent: "孟之反是一位非常勇敢的將軍，他在撤退時保護大家，立了大功。但他進城後卻很謙虛，把功勞推給馬跑得慢。孔子稱讚他這種不愛炫耀、謙虛的美德。",
+    id: "1-5", world: 1, stage: 5, book: "學而第一", englishBook: "Xue Er I", title: "治理國家的道理", englishTitle: "Principles of Governance",
+    originalText: "子曰：「道千乘之國，敬事而信，節用而愛人，使民以時。」",
+    translation: "孔子說：「治理一個擁有一千輛兵車的國家，要嚴肅認真地對待政務並且守信用，節約開支並且愛護官吏，役使百姓要避開農忙時節。」",
+    storyTitle: "好國王的秘密",
+    storyContent: "如果讓你當一個大國家的國王，你要怎麼管理呢？\n\n孔子說，治理一個大國家，有幾個秘訣：\n第一，做事要認真負責，而且說話算話。\n第二，要節約花費，不要亂花錢，並且愛護人民。\n第三，如果需要人民幫忙做事，要在對的時間，例如不要在農夫最忙著種田的時候叫他們去蓋城牆。",
     flashcards: [
-      { id: "f6-5-1", term: "不伐", definition: "不誇耀自己的功勞" },
-      { id: "f6-5-2", term: "殿", definition: "在軍隊撤退時留在最後面掩護" }
+      { id: "f1-5-1", term: "道", definition: "治理（通導）" },
+      { id: "f1-5-2", term: "千乘之國", definition: "擁有一千輛兵車的大國" },
+      { id: "f1-5-3", term: "使民以時", definition: "在適當的時機才役使人民" }
     ]
   },
   {
-    id: "6-6", world: 6, stage: 6, book: "雍也第六", englishBook: "Yong Ye VI", title: "文質彬彬", englishTitle: "Balanced Character",
-    originalText: "子曰：「質勝文則野，文勝質則史。文質彬彬，然後君子。」",
-    translation: "孔子說：「質樸多於文采就顯得粗野，文采多於質樸就顯得虛浮。只有文采和質樸配合得恰到好處，才是君子。」",
-    storyTitle: "外表與內在的平衡",
-    storyContent: "孔子說，一個人如果只有善良的內心但沒禮貌，會顯得很粗魯；如果只有華麗的禮貌但內心不真誠，會顯得很虛偽。最好的樣子是：內心善良且外表優雅，這就是「文質彬彬」。",
+    id: "1-6", world: 1, stage: 6, book: "學而第一", englishBook: "Xue Er I", title: "好學生的順序", englishTitle: "Order of Learning",
+    originalText: "子曰：「弟子，入則孝，出則弟，謹而信，汎愛眾，而親仁。行有餘力，則以學文。」",
+    translation: "孔子說：「弟子們在家要孝順父母，出門要敬愛兄長，做事謹慎且守信用，博愛大眾並親近仁德之人。做好了這些事還有餘力的話，就去學習文化知識。」",
+    storyTitle: "學習的先後順序",
+    storyContent: "小明每天都在補習班學很多才藝，但是他在家裡常常對媽媽發脾氣，在學校也會欺負同學。\n\n孔子說，一個好學生，應該先學會做人：在家孝順父母，出門尊敬長輩；做事謹慎守信，愛護大家，並且親近有道德的人。把這些「做人」的基本功都做好了，如果還有剩下的時間和精力，才去學習書本上的知識。",
     flashcards: [
-      { id: "f6-6-1", term: "質", definition: "內在的質樸、本性" },
-      { id: "f6-6-2", term: "文", definition: "外在的修飾、禮儀" },
-      { id: "f6-6-3", term: "文質彬彬", definition: "外在修飾與內在質樸配合得很好" }
+      { id: "f1-6-1", term: "入則孝", definition: "在家孝順父母" },
+      { id: "f1-6-2", term: "出則弟", definition: "出外敬愛兄長（弟通悌）" },
+      { id: "f1-6-3", term: "學文", definition: "學習文化知識、書本學問" }
     ]
   },
   {
-    id: "6-7", world: 6, stage: 7, book: "雍也第六", englishBook: "Yong Ye VI", title: "人之生也直", englishTitle: "Life is Upright",
-    originalText: "子曰：「人之生也直，罔之生也幸而免。」",
-    translation: "孔子說：「人的生存靠的是正直，不正直的人也能生存，那只是僥倖免於災禍罷了。」",
-    storyTitle: "正直是最好的保護",
-    storyContent: "孔子說，做人一定要正直。雖然有些壞人看起來過得不錯，但那只是運氣好，遲早會遇到麻煩。只有正直的人，心裡才踏實，才能長久地生活在陽光下。",
+    id: "1-7", world: 1, stage: 7, book: "學而第一", englishBook: "Xue Er I", title: "真正的學問", englishTitle: "True Knowledge",
+    originalText: "子夏曰：「賢賢易色；事父母，能竭其力；事君，能致其身；與朋友交，言而有信。雖曰未學，吾必謂之學矣。」",
+    translation: "子夏說：「看重賢德而輕視美色；侍奉父母能竭盡全力；為國君效力能不惜生命；與朋友交往說話守信用。這樣的人，即使說沒學習過，我也一定說他學習過了。」",
+    storyTitle: "沒上過學的智者",
+    storyContent: "孔子的學生子夏說，看重別人的好品德，勝過看重美麗的外表。\n\n如果一個人侍奉父母能盡心盡力；為國家做事能不顧自身安危；和朋友交往能說話算話。這樣的人，就算別人說他沒有讀過書，我也一定會說他是一個非常有學問的人！因為他已經把道理用在生活上了。",
     flashcards: [
-      { id: "f6-7-1", term: "直", definition: "正直、誠實" },
-      { id: "f6-7-2", term: "罔", definition: "不正直、欺騙" }
+      { id: "f1-7-1", term: "賢賢", definition: "尊重、看重有才德的人" },
+      { id: "f1-7-2", term: "易色", definition: "改變看重美色的態度" },
+      { id: "f1-7-3", term: "致其身", definition: "奉獻、犧牲自己的生命" }
     ]
   },
   {
-    id: "6-8", world: 6, stage: 8, book: "雍也第六", englishBook: "Yong Ye VI", title: "知之者不如好之者", englishTitle: "Loving Knowledge",
-    originalText: "子曰：「知之者不如好之者，好之者不如樂之者。」",
-    translation: "孔子說：「了解它的人不如喜愛它的人，喜愛它的人不如以它為樂的人。」",
-    storyTitle: "學習的三個境界",
-    storyContent: "孔子說，學習有三個階段：\n1. 知道（了解知識）。\n2. 喜歡（對它有興趣）。\n3. 快樂（把它當成一種享受）。\n如果你能從學習中找到快樂，那你一定會學得最好！",
+    id: "1-8", world: 1, stage: 8, book: "學而第一", englishBook: "Xue Er I", title: "君子的風度", englishTitle: "Demeanor of a Gentleman",
+    originalText: "子曰：「君子不重，則不威；學則不固。主忠信。無友不如己者。過，則勿憚改。」",
+    translation: "孔子說：「君子如果不莊重，就沒有威嚴，學習的知識也不穩固。要以忠誠和守信為主。不要結交品德不如自己的人。有了過錯，就不要怕改正。」",
+    storyTitle: "勇敢認錯的勇士",
+    storyContent: "孔子說，一個君子如果行為不莊重，就會失去威嚴，學到的知識也不會穩固。\n\n做人要以「忠誠」和「信實」為原則。不要結交品德不如自己的人當好朋友。最重要的是，如果發現自己做錯事了，千萬不要害怕去改正它！勇敢認錯並改過，才是真正的勇士。",
     flashcards: [
-      { id: "f6-8-1", term: "好之者", definition: "喜愛它的人" },
-      { id: "f6-8-2", term: "樂之者", definition: "以它為快樂的人" }
+      { id: "f1-8-1", term: "重", definition: "莊重、穩重" },
+      { id: "f1-8-2", term: "固", definition: "穩固、紮實" },
+      { id: "f1-8-3", term: "勿憚改", definition: "不要害怕改正錯誤" }
     ]
   },
   {
-    id: "6-9", world: 6, stage: 9, book: "雍也第六", englishBook: "Yong Ye VI", title: "中人以上", englishTitle: "Above Average",
-    originalText: "子曰：「中人以上，可以語上也；中人以下，不可以語上也。」",
-    translation: "孔子說：「中等資質以上的人，可以跟他們談論高深的道理；中等資質以下的人，不可以跟他們談論高深的道理。」",
-    storyTitle: "因材施教",
-    storyContent: "孔子教學生很有方法。他會看學生的程度來決定教什麼。如果學生還沒準備好，他就先教簡單的；如果學生很聰明，他就會教更深奧的道理。這教我們要循序漸進地學習。",
+    id: "1-9", world: 1, stage: 9, book: "學而第一", englishBook: "Xue Er I", title: "飲水思源", englishTitle: "Remembering Our Roots",
+    originalText: "曾子曰：「慎終追遠，民德歸厚矣。」",
+    translation: "曾子說：「謹慎地辦理父母的喪事，虔誠地祭祀遠代的祖先，百姓的品德就會趨於淳厚了。」",
+    storyTitle: "清明節的意義",
+    storyContent: "每年清明節，爸爸媽媽都會帶我們去掃墓，祭拜祖先。為什麼要這麼做呢？\n\n曾子說，如果我們能夠謹慎地辦理父母的喪事，並且虔誠地追念祭拜祖先，不忘記我們的根本。當大家都懂得「飲水思源」、感恩祖先的時候，整個社會的風氣就會變得越來越淳厚善良了。",
     flashcards: [
-      { id: "f6-9-1", term: "中人", definition: "中等資質的人" },
-      { id: "f6-9-2", term: "語上", definition: "談論高深的道理" }
+      { id: "f1-9-1", term: "慎終", definition: "謹慎地辦理父母的喪事" },
+      { id: "f1-9-2", term: "追遠", definition: "虔誠地祭祀、追念祖先" },
+      { id: "f1-9-3", term: "歸厚", definition: "趨於淳厚、善良" }
     ]
   },
   {
-    id: "6-10", world: 6, stage: 10, book: "雍也第六", englishBook: "Yong Ye VI", title: "樊遲問知", englishTitle: "Fan Chi Asks About Wisdom",
-    originalText: "樊遲問知。子曰：「務民之義，敬鬼神而遠之，可謂知矣。」問仁。曰：「仁者先難而後獲，可謂仁矣。」",
-    translation: "樊遲問什麼是智。孔子說：「致力於百姓應盡的道義，尊敬鬼神但保持距離，可以說是智了。」問什麼是仁。孔子說：「仁人先付出艱苦的努力，然後才考慮收穫，可以說是仁了。」",
-    storyTitle: "智慧與仁慈",
-    storyContent: "孔子告訴樊遲：聰明的人會專心做好眼前該做的事，對神祕的事保持敬意但不迷信。而善良的人會先努力工作，不急著要好處。這就是智慧與仁慈的表現。",
+    id: "1-10", world: 1, stage: 10, book: "學而第一", englishBook: "Xue Er I", title: "孔子的風采", englishTitle: "Confucius' Manner",
+    originalText: "子禽問於子貢曰：「夫子至於是邦也，必聞其政，求之與？抑與之與？」子貢曰：「夫子溫、良、恭、儉、讓以得之。夫子之求之也，其諸異乎人之求之與？」",
+    translation: "子禽問子貢：「老師每到一個國家，一定能參與政事，是他求來的呢？還是人家主動給他的？」子貢說：「老師是靠溫和、善良、恭敬、節儉、謙讓得到的。老師的求法，大概跟別人的求法不一樣吧！」",
+    storyTitle: "受歡迎的客人",
+    storyContent: "有一個學生問子貢：「為什麼孔子每到一個地方，當地的國王都想找他商量國事呢？」\n\n子貢回答：「因為老師具備了五種好品德：溫和、善良、恭敬、節儉、謙讓。大家看到他這麼有修養，自然都想請教他。老師不需要像別人那樣去爭奪，好機會自然會找上門。」",
     flashcards: [
-      { id: "f6-10-1", term: "敬鬼神而遠之", definition: "尊敬鬼神但保持適當距離（不迷信）" },
-      { id: "f6-10-2", term: "先難而後獲", definition: "先經歷艱難的努力，後得到收穫" }
+      { id: "f1-10-1", term: "溫良恭儉讓", definition: "溫和、善良、恭敬、節儉、謙讓" },
+      { id: "f1-10-2", term: "邦", definition: "國家、城邦" },
+      { id: "f1-10-3", term: "抑", definition: "還是、或者是" }
     ]
   },
   {
-    id: "6-11", world: 6, stage: 11, book: "雍也第六", englishBook: "Yong Ye VI", title: "知者樂水", englishTitle: "Wisdom and Benevolence",
-    originalText: "子曰：「知者樂水，仁者樂山。知者動，仁者靜。知者樂，仁者壽。」",
-    translation: "孔子說：「聰明的人喜愛水，仁德的人喜愛山。聰明的人活躍，仁德的人沉靜。聰明的人快樂，仁德的人長壽。」",
-    storyTitle: "山與水的性格",
-    storyContent: "孔子用山水來比喻兩種優秀的人：聰明的人像水一樣靈活、充滿活力；善良的人像山一樣穩重、安靜。這兩種特質都很棒，都能讓人活得快樂又長久。",
+    id: "1-11", world: 1, stage: 11, book: "學而第一", englishBook: "Xue Er I", title: "什麼是孝順", englishTitle: "What is Filial Piety",
+    originalText: "子曰：「父在，觀其志；父沒，觀其行；三年無改於父之道，可謂孝矣。」",
+    translation: "孔子說：「父親在世時，觀察兒子的志向；父親過世後，觀察兒子的行為；如果多年都不改變父親合理的規矩，就可以說是孝順了。」",
+    storyTitle: "傳承的好習慣",
+    storyContent: "小華的爸爸教他每天都要把自己的房間整理乾淨。\n\n孔子說，當父親還在世的時候，因為孩子還不能自己做主，所以要看他的「志向」好不好；當父親過世後，孩子可以自己做主了，就要看他的「行為」好不好。如果過了好幾年，他都還能保持父親教導他的好規矩，沒有改變，這樣就是真正的孝順了！",
     flashcards: [
-      { id: "f6-11-1", term: "知者樂水", definition: "聰明的人喜愛水的靈動" },
-      { id: "f6-11-2", term: "仁者樂山", definition: "仁德的人喜愛山的穩重" }
+      { id: "f1-11-1", term: "父在觀其志", definition: "父親在世時，觀察孩子的志向" },
+      { id: "f1-11-2", term: "父沒觀其行", definition: "父親過世後，觀察孩子的行為" },
+      { id: "f1-11-3", term: "三年無改", definition: "多年不改變（三年代表多年）" }
     ]
   },
   {
-    id: "6-12", world: 6, stage: 12, book: "雍也第六", englishBook: "Yong Ye VI", title: "博學於文", englishTitle: "Extensive Learning",
-    originalText: "子曰：「君子博學於文，約之以禮，亦可以弗畔矣夫！」",
-    translation: "孔子說：「君子廣泛地學習文化知識，再用禮儀來約束自己，也就可以不背離正道了。」",
-    storyTitle: "知識與規矩",
-    storyContent: "孔子說，我們不只要多讀書、增加知識（博學），還要有禮貌、守規矩（約之以禮）。這樣一來，我們就不會做出錯誤的決定，能一直走在正確的道路上。",
+    id: "1-12", world: 1, stage: 12, book: "學而第一", englishBook: "Xue Er I", title: "禮的用處", englishTitle: "The Use of Rites",
+    originalText: "有子曰：「禮之用，和為貴。先王之道，斯為美；小大由之。有所不行，知和而和，不以禮節之，亦不可行也。」",
+    translation: "有子說：「禮的功用，以和諧為最可貴。古代君王的治國之道，最美妙的地方就在這裡；無論大事小事都遵循這個原則。但如果只是一味地追求和諧，而不以禮法來節制，那也是行不通的。」",
+    storyTitle: "和諧的交響樂",
+    storyContent: "想像一個交響樂團，如果每個樂器都各吹各的，那會很吵。所以需要「禮」（樂譜和指揮）來讓大家和諧相處。\n\n有子說，禮最重要的目的就是讓大家「和諧」。古代優秀的國王，不管大事小事都用這個方法。但是，如果大家只是一味地追求和諧，卻忘記了規矩，那就像沒有樂譜的樂團，最後還是會亂成一團喔！",
     flashcards: [
-      { id: "f6-12-1", term: "博學於文", definition: "廣泛地學習各種文化知識" },
-      { id: "f6-12-2", term: "約之以禮", definition: "用禮儀來約束、規範自己" }
+      { id: "f1-12-1", term: "和為貴", definition: "以和諧為最可貴" },
+      { id: "f1-12-2", term: "斯為美", definition: "這就是最美妙的地方" },
+      { id: "f1-12-3", term: "節之", definition: "節制、規範它" }
     ]
   },
   {
-    id: "6-13", world: 6, stage: 13, book: "雍也第六", englishBook: "Yong Ye VI", title: "中庸之為德", englishTitle: "The Virtue of the Mean",
-    originalText: "子曰：「中庸之為德也，其至矣乎！民鮮久矣。」",
-    translation: "孔子說：「中庸作為一種道德，該是最高尚的了吧！百姓缺少這種道德已經很久了。」",
-    storyTitle: "剛剛好的智慧",
-    storyContent: "孔子說，「中庸」是最高級的品德。什麼是中庸？就是做事情「剛剛好」，不極端、不偏激。這雖然很難做到，但卻是讓世界最和諧的方法。",
+    id: "1-13", world: 1, stage: 13, book: "學而第一", englishBook: "Xue Er I", title: "言行要謹慎", englishTitle: "Prudence in Words",
+    originalText: "有子曰：「信近於義，言可復也。恭近於禮，遠恥辱也。因不失其親，亦可宗也。」",
+    translation: "有子說：「講信用要符合道義，話才能實踐。恭敬要符合禮法，才能遠離恥辱。所依靠的人是值得親近的，也就值得尊敬了。」",
+    storyTitle: "說到做到的超能力",
+    storyContent: "小明答應幫小強去偷東西，這雖然是「守信用」，但這是不對的事。\n\n有子說，我們答應別人的事（信），必須是正確的事（義），這樣我們說出的話才能去實現。我們對人有禮貌（恭），也要符合規矩（禮），才不會丟臉。最後，我們要結交值得信任的好朋友，這樣的人才值得我們學習和尊敬喔！",
     flashcards: [
-      { id: "f6-13-1", term: "中庸", definition: "不偏不倚、恰到好處的處世之道" },
-      { id: "f6-13-2", term: "至", definition: "極點、最高境界" }
+      { id: "f1-13-1", term: "言可復也", definition: "說出的話可以實踐、兌現" },
+      { id: "f1-13-2", term: "遠恥辱", definition: "遠離羞辱、不丟臉" },
+      { id: "f1-13-3", term: "可宗", definition: "值得尊敬、效法" }
     ]
   },
   {
-    id: "6-14", world: 6, stage: 14, book: "雍也第六", englishBook: "Yong Ye VI", title: "博施於民", englishTitle: "Extensive Benefits to the People",
-    originalText: "子貢曰：「如有博施於民而能濟眾，何如？可謂仁乎？」子曰：「何事於仁，必也聖乎！堯舜其猶病諸！夫仁者，己欲立而立人，己欲達而達人。能近取譬，可謂仁之方也已。」",
-    translation: "子貢問：「如果有人能廣泛地給予百姓好處，並能救濟大眾，怎麼樣？可以說是仁嗎？」孔子說：「這何止是仁，那一定是聖人的境界了！堯舜恐怕都難以完全做到呢！所謂仁，就是自己想站得住腳，也讓別人站得住腳；自己想通達，也讓別人通達。凡事能推己及人，可以說是實行仁的方法了。」",
-    storyTitle: "幫助別人就是幫助自己",
-    storyContent: "孔子告訴子貢，要成為一個偉大的人，最簡單的方法就是「推己及人」。如果你想變優秀，就順便幫別人也變優秀。這種互相幫助的精神，就是「仁」的最棒實踐！",
+    id: "1-14", world: 1, stage: 14, book: "學而第一", englishBook: "Xue Er I", title: "君子的生活", englishTitle: "Life of a Gentleman",
+    originalText: "子曰：「君子食無求飽，居無求安，敏於事而慎於言，就有道而正焉，可謂好學也已。」",
+    translation: "孔子說：「君子飲食不追求飽足，居住不追求安逸，做事勤快敏捷，說話謹慎，向有道德的人請教來修正自己，這樣可以說是好學了。」",
+    storyTitle: "好學的小偵探",
+    storyContent: "有一個小偵探，他每天都在學習新知識。他吃飯不挑食，只要吃飽就好；住的地方簡簡單單，他也不在意。\n\n他把所有的精力都花在做事上，動作很快，但說話很小心。最重要的是，他常常去找聰明又有品德的老師，請老師幫他看看哪裡做得不對。孔子說，像這樣不追求享受，一心只想進步的人，才是真正「好學」的人喔！",
     flashcards: [
-      { id: "f6-14-1", term: "己欲立而立人", definition: "自己想成功，也幫助別人成功" },
-      { id: "f6-14-2", term: "能近取譬", definition: "凡事能就近以自己為例，推及他人" }
+      { id: "f1-14-1", term: "敏於事", definition: "做事勤快敏捷" },
+      { id: "f1-14-2", term: "慎於言", definition: "說話謹慎小心" },
+      { id: "f1-14-3", term: "就有道", definition: "親近有道德的人" }
+    ]
+  },
+  {
+    id: "1-15", world: 1, stage: 15, book: "學而第一", englishBook: "Xue Er I", title: "精益求精", englishTitle: "Strive for Perfection",
+    originalText: "子貢曰：「貧而無諂，富而無驕，何如？」子曰：「可也；未若貧而樂，富而好禮者也。」子貢曰：「《詩》云：『如切如磋，如琢如磨』，其斯之謂與？」子曰：「賜也，始可與言《詩》已矣，告諸往而知來者。」",
+    translation: "子貢問：「貧窮而不巴結，富有而不驕傲，怎麼樣？」孔子說：「可以了；但不如貧窮而快樂，富有而愛好禮法的人。」子貢說：「《詩經》說：『像切磋骨角，像琢磨玉石』，說的就是這個意思吧？」孔子說：「子貢啊，現在可以跟你談論《詩經》了，告訴你過去的事，你就能推想到未來的事。」",
+    storyTitle: "打磨漂亮的寶石",
+    storyContent: "子貢問老師：「如果一個人很窮，但他不巴結有錢人；或者一個人很有錢，但他不看不起窮人，這樣好不好？」孔子說：「這已經很好了！但是還有一種更高境界的人：雖然生活辛苦，但心裡依然很快樂；雖然家裡很有錢，但依然對每個人都很有禮貌。」\n\n子貢聽完，突然想到這就像是在雕刻象牙或打磨寶石一樣，要經過不斷地切、磋、琢、磨，才能變得完美。孔子聽了非常高興，稱讚子貢能舉一反三！",
+    flashcards: [
+      { id: "f1-15-1", term: "無諂", definition: "不巴結、不討好" },
+      { id: "f1-15-2", term: "如切如磋", definition: "像雕刻骨角一樣細心" },
+      { id: "f1-15-3", term: "如琢如磨", definition: "像打磨玉石一樣精緻" }
+    ]
+  },
+  {
+    id: "1-16", world: 1, stage: 16, book: "學而第一", englishBook: "Xue Er I", title: "了解別人", englishTitle: "Understanding Others",
+    originalText: "子曰：「不患人之不己知，患不知人也。」",
+    translation: "孔子說：「不擔心別人不了解自己，只擔心自己不了解別人。」",
+    storyTitle: "神奇的放大鏡",
+    storyContent: "小明覺得很難過，因為同學都不知道他其實很會畫畫。\n\n孔子安慰他說：「不要擔心別人不知道你的優點，我們應該把心思花在去發現別人的優點、了解別人的需要上。」當我們學會去觀察和了解別人，我們就會發現每個人都有值得學習的地方，也會交到更多好朋友喔！",
+    flashcards: [
+      { id: "f1-16-1", term: "不患", definition: "不擔心、不憂慮" },
+      { id: "f1-16-2", term: "不己知", definition: "不了解自己" },
+      { id: "f1-16-3", term: "不知人", definition: "不了解別人" }
     ]
   }
 ];

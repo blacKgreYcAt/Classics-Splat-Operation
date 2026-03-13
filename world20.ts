@@ -1,477 +1,281 @@
 import { Lesson } from '../lessons';
 
-export const world14Lessons: Omit<Lesson, 'phoneticOriginalText'>[] = [
+export const world11Lessons: Omit<Lesson, 'phoneticOriginalText'>[] = [
   {
-    id: "14-1", world: 14, stage: 1, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "憲問恥", englishTitle: "What is Shame?",
-    originalText: "憲問恥。子曰：「邦有道，穀；邦無道，穀，恥也。」",
-    translation: "原憲問什麼是羞恥。孔子說：「國家太平時，拿俸祿；國家混亂時，還只顧著拿俸祿，這就是羞恥。」",
-    storyTitle: "不只是領薪水",
-    storyContent: "孔子教原憲：當官不只是為了領薪水（穀）。如果國家很亂、老闆很壞，你還裝作沒看見，只顧著領錢享福，那就是一種羞恥。這教我們，工作要有責任感和正義感。",
+    id: "11-1", world: 11, stage: 1, book: "先進第十一", englishBook: "Xian Jin XI", title: "先進於禮樂", englishTitle: "The Former Generations",
+    originalText: "子曰：「先進於禮樂，野人也；後進於禮樂，君子也。如用之，則吾從先進。」",
+    translation: "孔子說：「前輩們在學習禮樂時，看起來比較樸素，像鄉下人；後輩們在學習禮樂時，看起來比較文雅，像君子。如果要我選擇，我會追隨前輩們。」",
+    storyTitle: "樸實的魅力",
+    storyContent: "孔子覺得，以前的人學習禮樂是為了充實內心，所以看起來很樸實；現在的人學習是為了裝飾外表，所以看起來很華麗。孔子更喜歡那種「發自內心」的樸實感。這教我們，內在的修養比外表的裝飾更重要。",
     flashcards: [
-      { id: "f14-1-1", term: "穀", definition: "古代官員的俸祿，指做官領薪水" },
-      { id: "f14-1-2", term: "恥", definition: "羞恥、丟臉的事" }
+      { id: "f11-1-1", term: "先進", definition: "前輩、早先學習的人" },
+      { id: "f11-1-2", term: "野人", definition: "樸素、不加修飾的人（非貶義）" }
     ]
   },
   {
-    id: "14-2", world: 14, stage: 2, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "克伐怨欲", englishTitle: "Overcoming Desires",
-    originalText: "「克、伐、怨、欲不行焉，可以為仁矣？」子曰：「可以為難矣，仁則吾不知也。」",
-    translation: "「好勝、自誇、怨恨、貪欲，這四種毛病都不犯，可以說是仁了嗎？」孔子說：「這可以說是做到難事了，但算不算仁，我就不知道了。」",
-    storyTitle: "更高的標準",
-    storyContent: "孔子對「仁」的要求非常高。他覺得「不犯錯」只是第一步，雖然很難得，但真正的仁還需要更積極的愛與智慧。這教我們，進步是沒有止境的，不要滿足於現狀。",
+    id: "11-2", world: 11, stage: 2, book: "先進第十一", englishBook: "Xian Jin XI", title: "從我於陳蔡者", englishTitle: "Followers in Chen and Cai",
+    originalText: "子曰：「從我於陳、蔡者，皆不及門也。」",
+    translation: "孔子說：「當年跟隨我在陳國、蔡國受苦的那些學生，現在都不在我的門下了。」",
+    storyTitle: "患難見真情",
+    storyContent: "孔子回憶起那段最艱苦的日子，雖然很多優秀的學生已經離開或過世了，但他心裡依然深深感激那些曾陪他一起度過難關的人。這教我們，要珍惜那些在困難時拉你一把的朋友。",
     flashcards: [
-      { id: "f14-2-1", term: "克伐怨欲", definition: "好勝、自誇、怨恨、貪欲" },
-      { id: "f14-2-2", term: "為難", definition: "做到困難的事、很不容易" }
+      { id: "f11-2-1", term: "不及門", definition: "不在門下、不在身邊" },
+      { id: "f11-2-2", term: "陳蔡", definition: "孔子周遊列國時曾被圍困受難的地方" }
     ]
   },
   {
-    id: "14-3", world: 14, stage: 3, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "士而懷居", englishTitle: "Loving Comfort",
-    originalText: "子曰：「士而懷居，不足以為士矣。」",
-    translation: "孔子說：「讀書人如果只留戀安逸的生活，就不配稱為讀書人了。」",
-    storyTitle: "走出舒適圈",
-    storyContent: "孔子覺得，讀書人要有理想，要願意為了理想去冒險、去吃苦。如果整天只想待在家裡吹冷氣、玩遊戲，不願意為社會付出，那就太可惜了。這教我們要勇敢挑戰自己。",
+    id: "11-3", world: 11, stage: 3, book: "先進第十一", englishBook: "Xian Jin XI", title: "德行：顏淵", englishTitle: "Virtue and Talent",
+    originalText: "德行：顏淵、閔子騫、冉伯牛、仲弓。言語：宰我、子貢。政事：冉有、季路。文學：子游、子夏。」",
+    translation: "品德高尚的有：顏淵、閔子騫、冉伯牛、仲弓。擅長言辭的有：宰我、子貢。擅長政務的有：冉有、季路。擅長文學的有：子游、子夏。」",
+    storyTitle: "孔子班的英雄榜",
+    storyContent: "孔子的學生每個人都有不同的超能力！有的品德特別好，有的很會說話，有的很會辦事。孔子很了解每個人的優點，這教我們：每個人都是獨一無二的，只要找到自己的專長，就能發光發熱。",
     flashcards: [
-      { id: "f14-3-1", term: "懷居", definition: "留戀安逸的居家生活、不思進取" },
-      { id: "f14-3-2", term: "不足以", definition: "不配、不夠格" }
+      { id: "f11-3-1", term: "德行", definition: "品德、行為修養" },
+      { id: "f11-3-2", term: "政事", definition: "治理國家、處理公務" }
     ]
   },
   {
-    id: "14-4", world: 14, stage: 4, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "邦有道，危言危行", englishTitle: "Speaking and Acting Boldly",
-    originalText: "子曰：「邦有道，危言危行；邦無道，危行言孫。」",
-    translation: "孔子說：「國家太平時，說話正直，行為正直；國家混亂時，行為依然要正直，但說話要謙虛委婉。」",
-    storyTitle: "保護自己的智慧",
-    storyContent: "孔子教我們怎麼在不同環境中生存：不管世界多亂，我們都要做好人（危行）。但在危險的時候，說話要小心一點（言孫），不要隨便得罪壞人，這樣才能保護好自己去做更多好事。",
+    id: "11-4", world: 11, stage: 4, book: "先進第十一", englishBook: "Xian Jin XI", title: "回也非助我者也", englishTitle: "Hui is Not a Helper",
+    originalText: "子曰：「回也非助我者也，於吾言無所不說。」",
+    translation: "孔子說：「顏回不是能對我有幫助的人，因為他對我說的話沒有不感到高興、沒有不贊同的。」",
+    storyTitle: "太完美的學生",
+    storyContent: "孔子開玩笑地說顏回「沒幫助」，其實是在稱讚顏回太聰明了！因為孔子講什麼，顏回都能立刻聽懂並開心地接受，完全不需要孔子多解釋。這教我們，學習的最高境界是與老師心靈相通。",
     flashcards: [
-      { id: "f14-4-1", term: "危言危行", definition: "說話正直，行為正直（危：正直、高峻）" },
-      { id: "f14-4-2", term: "言孫", definition: "說話謙虛、委婉（孫通遜）" }
+      { id: "f11-4-1", term: "助我", definition: "幫助我（指提出不同意見來啟發老師）" },
+      { id: "f11-4-2", term: "說", definition: "高興、喜悅（音同悅）" }
     ]
   },
   {
-    id: "14-5", world: 14, stage: 5, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "有德者必有言", englishTitle: "Virtue and Speech",
-    originalText: "子曰：「有德者必有言，有言者不必有德。仁者必有勇，勇者不必有仁。」",
-    translation: "孔子說：「品德高尚的人一定有好的言論，但說話好聽的人不一定有高尚品德。仁慈的人一定勇敢，但勇敢的人不一定仁慈。」",
-    storyTitle: "真正的勇敢",
-    storyContent: "孔子教我們怎麼看人：一個真正善良的人（仁），在遇到壞事時一定會勇敢站出來。但有些人雖然很愛打架、看起來很勇，心裡卻不一定善良。這教我們要追求內在的強大。",
+    id: "11-5", world: 11, stage: 5, book: "先進第十一", englishBook: "Xian Jin XI", title: "孝哉閔子騫", englishTitle: "Filial Min Ziqian",
+    originalText: "子曰：「孝哉閔子騫！人不間於其父母昆弟之言。」",
+    translation: "孔子說：「閔子騫真是孝順啊！別人都沒辦法挑剔他父母和兄弟對他的稱讚。」",
+    storyTitle: "全家人都誇獎他",
+    storyContent: "閔子騫的孝順是大家公認的。連最親近的家人都對他讚不絕口，這代表他的好品德是發自內心、表裡如一的。這教我們，真正的優秀是連身邊的人都佩服你。",
     flashcards: [
-      { id: "f14-5-1", term: "有德者必有言", definition: "有品德的人一定能說出有意義的話" },
-      { id: "f14-5-2", term: "仁者必有勇", definition: "仁慈的人因為問心無愧，所以一定很勇敢" }
+      { id: "f11-5-1", term: "不間", definition: "沒有縫隙、無法挑剔、無法離間（音同見）" },
+      { id: "f11-5-2", term: "昆弟", definition: "兄弟" }
     ]
   },
   {
-    id: "14-6", world: 14, stage: 6, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "君子而不仁者有矣夫", englishTitle: "Gentlemen Without Benevolence",
-    originalText: "子曰：「君子而不仁者有矣夫，未有小人而仁者也。」",
-    translation: "孔子說：「君子中偶爾也有不夠仁慈的人，但小人中絕對沒有仁慈的人。」",
-    storyTitle: "努力不懈的君子",
-    storyContent: "孔子說，就算是好人，有時候也會不小心犯錯或變得不夠體貼。但只要他願意改，他依然是君子。而那些自私自利的人（小人），是絕對不會去愛別人的。這教我們要持續努力保持善良。",
+    id: "11-6", world: 11, stage: 6, book: "先進第十一", englishBook: "Xian Jin XI", title: "南容三復白圭", englishTitle: "Nan Rong and the White Jade",
+    originalText: "南容三復白圭，孔子以其兄之子妻之。」",
+    translation: "南容反覆誦讀《詩經》中關於『白玉污點可以磨掉，說錯話卻沒辦法挽回』的詩句。孔子覺得他很謹慎，就把哥哥的女兒嫁給了他。」",
+    storyTitle: "說話要小心",
+    storyContent: "南容非常在意自己說的話，他每天提醒自己要像保護白玉一樣保護自己的名譽。孔子非常欣賞這種「謹言慎行」的態度。這教我們，說出口的話就像潑出去的水，一定要想清楚再說。",
     flashcards: [
-      { id: "f14-6-1", term: "有矣夫", definition: "是有過的啊（表示偶爾發生）" },
-      { id: "f14-6-2", term: "未有", definition: "從來沒有、絕對沒有" }
+      { id: "f11-6-1", term: "三復", definition: "反覆誦讀、多次重複" },
+      { id: "f11-6-2", term: "妻之", definition: "把女兒（或女性親屬）嫁給他（妻音同意）" }
     ]
   },
   {
-    id: "14-7", world: 14, stage: 7, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "愛之，能勿勞乎", englishTitle: "Love and Toil",
-    originalText: "子曰：「愛之，能勿勞乎？忠焉，能勿誨乎？」",
-    translation: "孔子說：「愛一個人，能不讓他經受磨練嗎？對一個人忠誠，能不對他進行教導嗎？」",
-    storyTitle: "真正的愛是磨練",
-    storyContent: "孔子覺得，如果你真的愛你的孩子或朋友，就不能讓他整天偷懶。你要讓他學會做事、學會吃苦，這才是對他最好的愛。這教我們，父母和老師的嚴格，其實是為了讓我們變強大。",
+    id: "11-7", world: 11, stage: 7, book: "先進第十一", englishBook: "Xian Jin XI", title: "季康子問弟子孰為好學", englishTitle: "Who Loves Learning?",
+    originalText: "季康子問：「弟子孰為好學？」孔子對曰：「有顏回者好學，不幸短命死矣，今也則亡。」",
+    translation: "季康子問：「你的學生中誰最愛好學習？」孔子回答：「有個叫顏回的最愛好學習，可惜他不幸短命死了，現在再也沒有像他那樣的人了。」",
+    storyTitle: "唯一的學霸",
+    storyContent: "在孔子心裡，顏回對學習的熱愛是無人能比的。雖然孔子有很多學生，但他覺得顏回那種「發自內心」的熱情最難得。這教我們，學習不只是為了考試，而是一種生活態度。",
     flashcards: [
-      { id: "f14-7-1", term: "勞", definition: "使之勤勞、經受磨練" },
-      { id: "f14-7-2", term: "誨", definition: "教導、勸誡（音同悔）" }
+      { id: "f11-7-1", term: "孰為", definition: "哪一個是" },
+      { id: "f11-7-2", term: "亡", definition: "沒有了、不在了（音同無）" }
     ]
   },
   {
-    id: "14-8", world: 14, stage: 8, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "為命，裨諶草創之", englishTitle: "Drafting Decrees",
-    originalText: "子曰：「為命，裨諶草創之，世叔討論之，行人子羽修飾之，東里子產潤色之。」",
-    translation: "孔子說：「鄭國發布政令，先由裨諶起草，世叔提出意見，外交官子羽修改裝飾，最後由子產進行潤色。」",
-    storyTitle: "團隊合作的力量",
-    storyContent: "孔子稱讚鄭國的辦事效率。他們發布一個命令，要經過四個專家的分工合作：有人負責想點子，有人負責檢查，有人負責修辭。這教我們，團結力量大，分工合作能把事情做得最完美。",
+    id: "11-8", world: 11, stage: 8, book: "先進第十一", englishBook: "Xian Jin XI", title: "顏淵死，顏路請子之車", englishTitle: "Yan Yuan's Funeral",
+    originalText: "顏淵死，顏路請子之車以為之槨。子曰：「才不才，亦各言其子也。鯉也死，有棺而無槨。吾不徒行以為之槨。以吾從大夫之後，不可徒行也。」",
+    translation: "顏淵死了，他的父親顏路請求孔子賣掉車子來買外棺。孔子說：「不管有沒有才華，大家都是愛兒子的。我兒子孔鯉死時，也只有內棺沒有外棺。我不能步行而去買外棺，因為我曾擔任大夫，按禮制是不可以步行的。」",
+    storyTitle: "禮制與情感",
+    storyContent: "孔子非常愛顏回，但他依然堅持「禮」的原則。他覺得葬禮應該根據自己的身份和能力來辦，不應該為了虛榮而破壞規矩。這教我們，愛一個人要用正確的方式，不能違背原則。",
     flashcards: [
-      { id: "f14-8-1", term: "草創", definition: "初步起草、創立" },
-      { id: "f14-8-2", term: "潤色", definition: "修飾文字，使之更完美" }
+      { id: "f11-8-1", term: "槨", definition: "外棺，套在棺材外面的大棺材（音同果）" },
+      { id: "f11-8-2", term: "徒行", definition: "步行、走路" }
     ]
   },
   {
-    id: "14-9", world: 14, stage: 9, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "或問子產", englishTitle: "About Zichan",
-    originalText: "或問子產。子曰：「惠人也。」問子西。曰：「彼哉！彼哉！」問管仲。曰：「人也。奪伯氏駢邑三百，飯疏食，沒齒無怨言。」",
-    translation: "有人問子產。孔子說：「他是個慈惠的人。」問子西。孔子說：「他呀！他呀（不屑一顧）！」問管仲。孔子說：「他是個人才。他剝奪了伯氏三百戶的封地，讓伯氏只能吃粗茶淡飯，但伯氏到死都沒有怨言。」",
-    storyTitle: "讓人心服口服",
-    storyContent: "孔子非常佩服管仲。管仲雖然處罰了別人，但因為他處罰得很公正，所以連被處罰的人都佩服他，一點怨言也沒有。這教我們，公平正直是贏得尊重的唯一方法。",
+    id: "11-9", world: 11, stage: 9, book: "先進第十一", englishBook: "Xian Jin XI", title: "天喪予", englishTitle: "Heaven is Destroying Me",
+    originalText: "顏淵死。子曰：「噫！天喪予！天喪予！」",
+    translation: "顏淵死了。孔子哀嘆說：「哎呀！老天要我的命啊！老天要我的命啊！」",
+    storyTitle: "孔子的眼淚",
+    storyContent: "顏回的過世對孔子打擊非常大。孔子覺得顏回就像他的接班人，沒有了顏回，他的理想就很難傳承下去了。這展現了孔子非常感性、非常重感情的一面。",
     flashcards: [
-      { id: "f14-9-1", term: "惠人", definition: "給人恩惠、慈愛的人" },
-      { id: "f14-9-2", term: "沒齒無怨言", definition: "一輩子直到死都沒有怨言（沒齒：掉光牙齒，指老年）" }
+      { id: "f11-9-1", term: "噫", definition: "嘆息聲（音同衣）" },
+      { id: "f11-9-2", term: "天喪予", definition: "老天要滅亡我啊" }
     ]
   },
   {
-    id: "14-10", world: 14, stage: 10, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "貧而無怨難", englishTitle: "Poverty Without Resentment",
-    originalText: "子曰：「貧而無怨難，富而無驕易。」",
-    translation: "孔子說：「貧窮而沒有怨言是很難做到的，富有而不驕傲則是比較容易的。」",
-    storyTitle: "不抱怨的勇氣",
-    storyContent: "孔子說，當我們沒錢、沒玩具時，心裡難免會想抱怨。如果這時候還能保持快樂、不怪別人，那需要非常強大的內心。這教我們，真正的修養是在困難中展現出來的。",
+    id: "11-10", world: 11, stage: 10, book: "先進第十一", englishBook: "Xian Jin XI", title: "子哭之慟", englishTitle: "Weeping Bitterly",
+    originalText: "顏淵死，子哭之慟。門人曰：「子慟矣！」曰：「有慟乎？非夫人之為慟而誰為？」",
+    translation: "顏淵死了，孔子哭得非常傷心。學生說：「老師您太悲慟了！」孔子說：「我真的很悲慟嗎？不為這個人悲慟，還要為誰悲慟呢？」",
+    storyTitle: "真情的流露",
+    storyContent: "孔子平時很講究禮儀，但面對最心愛的學生過世，他完全顧不得形象，哭得非常大聲。他覺得這才是最真實的人性。這教我們，在適當的時候表達情感，也是一種真誠。",
     flashcards: [
-      { id: "f14-10-1", term: "無怨", definition: "沒有怨言、不抱怨" },
-      { id: "f14-10-2", term: "易", definition: "容易、簡單" }
+      { id: "f11-10-1", term: "慟", definition: "極度悲哀、大哭（音同痛）" },
+      { id: "f11-10-2", term: "夫人", definition: "那個人（指顏回）" }
     ]
   },
   {
-    id: "14-11", world: 14, stage: 11, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "孟公綽為趙魏老", englishTitle: "Meng Gongchuo",
-    originalText: "子曰：「孟公綽為趙、魏老則優，不可以為滕、薛大夫。」",
-    translation: "孔子說：「孟公綽擔任趙、魏兩家的家臣是很優秀的，但不能擔任滕、薛兩國的大臣。」",
-    storyTitle: "放對位置就是人才",
-    storyContent: "孔子覺得，每個人都有適合自己的位置。孟公綽很會管家務，但不一定會管國家。這教我們，要了解自己的長處，找對舞台，才能發揮最大的價值。",
+    id: "11-11", world: 11, stage: 11, book: "先進第十一", englishBook: "Xian Jin XI", title: "未能事人，焉能事鬼", englishTitle: "Serving Men and Spirits",
+    originalText: "季路問事鬼神。子曰：「未能事人，焉能事鬼？」曰：「敢問死。」曰：「未知生，焉知死？」",
+    translation: "子路問怎麼侍奉鬼神。孔子說：「連人都還沒侍奉好，怎麼能侍奉鬼神呢？」子路又問：「請問死是怎麼回事？」孔子說：「連生都還不了解，怎麼能了解死呢？」",
+    storyTitle: "活在當下",
+    storyContent: "孔子是一個非常務實的人。他覺得與其去猜測死後的世界或鬼神，不如先把眼前的生活過好、把身邊的人照顧好。這教我們要珍惜生命，把當下的每一天都過得有意義。",
     flashcards: [
-      { id: "f14-11-1", term: "優", definition: "優裕、勝任有餘" },
-      { id: "f14-11-2", term: "大夫", definition: "古代官職名，負責治理國家政務" }
+      { id: "f11-11-1", term: "焉能", definition: "怎麼能" },
+      { id: "f11-11-2", term: "未知生焉知死", definition: "不了解生，怎麼能了解死（強調關注現實生活）" }
     ]
   },
   {
-    id: "14-12", world: 14, stage: 12, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "成人", englishTitle: "A Complete Man",
-    originalText: "子路問成人。子曰：「若臧武仲之知，公綽之不欲，卞莊子之勇，冉求之藝，文之以禮樂，亦可以為成人矣。」曰：「今之成人者何必然？見利思義，見危授命，久要不忘平生之言，亦可以為成人矣。」",
-    translation: "子路問什麼是完美的人。孔子說：「像臧武仲的智慧，孟公綽的廉潔，卞莊子的勇敢，冉求的才藝，再用禮樂來修飾，就是完美的人了。但現在的要求可以簡單點：見到利益想到正義，見到危險願意獻身，長期處於困境也不忘記當初的諾言，這也可以說是完美的人了。」",
-    storyTitle: "什麼是「大人」？",
-    storyContent: "孔子心目中的「大人」（成人），不是長得高，而是心靈強大。他給了三個簡單的標準：\n1. 不貪心（見利思義）。\n2. 很勇敢（見危授命）。\n3. 守信用（不忘平生之言）。這教我們，做一個正直的人就是最完美的。",
+    id: "11-12", world: 11, stage: 12, book: "先進第十一", englishBook: "Xian Jin XI", title: "閔子侍側", englishTitle: "Min Zi Standing by His Side",
+    originalText: "閔子侍側，誾誾如也；子路，行行如也；冉有、子貢，侃侃如也。子樂。曰：「若由也，不得其死然。」",
+    translation: "閔子騫站在一旁，神態正直溫和；子路神態剛強；冉有和子貢神態從容不迫。孔子很高興。但他說：「像仲由（子路）這樣，恐怕不能得善終啊。」",
+    storyTitle: "老師的擔心",
+    storyContent: "孔子看著學生們不同的個性，心裡既高興又擔心。他特別擔心子路太過剛強、衝動，可能會遇到危險。這展現了孔子對學生像父親一樣的關懷：他了解你的優點，也看見你的危機。",
     flashcards: [
-      { id: "f14-12-1", term: "見利思義", definition: "見到利益時，先考慮是否符合正義" },
-      { id: "f14-12-2", term: "久要", definition: "長期的約定、長久的困境（要通約）" }
+      { id: "f11-12-1", term: "行行如", definition: "剛強、勇猛的樣子（音同航）" },
+      { id: "f11-12-2", term: "不得其死", definition: "不能善終、可能死於非命" }
     ]
   },
   {
-    id: "14-13", world: 14, stage: 13, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "公叔文子", englishTitle: "Gongshu Wenzi",
-    originalText: "子問公叔文子於公明賈曰：「信乎，夫子不言，不笑，不取乎？」公明賈對曰：「以告者過也。夫子時然後言，人不厭其言；樂然後笑，人不厭其笑；義然後取，人不厭其取。」子曰：「其然？豈其然乎？」",
-    translation: "孔子問公明賈：「聽說公叔文子不說話、不笑、不拿別人的東西，是真的嗎？」公明賈說：「那是傳話的人誇張了。他是該說話時才說，所以大家不討厭他說話；高興時才笑，所以大家不討厭他笑；符合正義才拿，所以大家不討厭他拿。」孔子說：「原來是這樣啊！真的是這樣嗎？」",
-    storyTitle: "剛剛好的生活",
-    storyContent: "孔子聽說有一個人完全不笑、不說話，覺得很奇怪。後來才知道，那個人只是「很會找時機」。這教我們，生活不需要壓抑自己，只要在對的時間做對的事，就是最有修養的表現。",
+    id: "11-13", world: 11, stage: 13, book: "先進第十一", englishBook: "Xian Jin XI", title: "魯人為長府", englishTitle: "The Treasury of Lu",
+    originalText: "魯人為長府。閔子騫曰：「仍舊貫，如之何？何必改作？」子曰：「夫人不言，言必有中。」",
+    translation: "魯國人要翻修長府（國庫）。閔子騫說：「照原樣修補不好嗎？何必大興土木重新改建呢？」孔子說：「這個人平時不愛說話，一說話就一定能說中要害。」",
+    storyTitle: "一針見血的智慧",
+    storyContent: "閔子騫覺得不要隨便浪費國家的錢去蓋新房子。孔子非常贊同，他覺得閔子騫雖然話不多，但每次都能提出最正確的建議。這教我們，說話不在多，而在於有沒有道理。",
     flashcards: [
-      { id: "f14-13-1", term: "不厭", definition: "不討厭、不反感" },
-      { id: "f14-13-2", term: "時然後言", definition: "到了適當的時機才說話" }
+      { id: "f11-13-1", term: "舊貫", definition: "舊有的格式、老樣子" },
+      { id: "f11-13-2", term: "言必有中", definition: "一說話就說中要害、切中理（中音同重）" }
     ]
   },
   {
-    id: "14-14", world: 14, stage: 14, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "晉文公譎而不正", englishTitle: "Duke Wen of Jin",
-    originalText: "子曰：「晉文公譎而不正，齊桓公正而不譎。」",
-    translation: "孔子說：「晉文公詭詐而不正直，齊桓公正直而不詭詐。」",
-    storyTitle: "誠實是最好的策略",
-    storyContent: "孔子比較了兩位有名的國王。他比較喜歡齊桓公，因為齊桓公做事光明正大；而晉文公雖然也很強，但愛用陰謀詭計。這教我們，做人要坦蕩蕩，不要愛耍小聰明。",
+    id: "11-14", world: 11, stage: 14, book: "先進第十一", englishBook: "Xian Jin XI", title: "由之瑟", englishTitle: "Zilu's Zither",
+    originalText: "子曰：「由之瑟，奚為於丘之門？」門人不敬子路。子曰：「由也升堂矣，未入於室也。」",
+    translation: "孔子說：「仲由彈瑟的聲音，怎麼會出現在我的門下呢（指聲音太剛猛）？」學生們因此對子路不尊敬。孔子說：「仲由的學問已經進了正廳，只是還沒進入內室罷了。」",
+    storyTitle: "音樂裡的個性",
+    storyContent: "子路彈琴的聲音跟他的人一樣，非常剛硬、殺氣騰騰，孔子聽了覺得不和諧。但當別的小朋友因此嘲笑子路時，孔子立刻站出來保護他，說子路其實已經很厲害了。這教我們要欣賞別人的進步，不要隨便嘲笑別人。",
     flashcards: [
-      { id: "f14-14-1", term: "譎", definition: "詭詐、欺騙（音同決）" },
-      { id: "f14-14-2", term: "正", definition: "正直、光明正大" }
+      { id: "f11-14-1", term: "瑟", definition: "古代的一種弦樂器" },
+      { id: "f11-14-2", term: "升堂入室", definition: "學問由淺入深，達到很高的境界" }
     ]
   },
   {
-    id: "14-15", world: 14, stage: 15, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "管仲相桓公", englishTitle: "Guan Zhong Aiding Duke Huan",
-    originalText: "子路曰：「桓公殺公子糾，召忽死之，管仲不死。」曰：「未仁乎？」子曰：「桓公九合諸侯，不以兵車，管仲之力也。如其仁，如其仁！」",
-    translation: "子路問：「齊桓公殺了公子糾，召忽自殺殉主，管仲卻沒死還去當宰相。管仲不算仁慈吧？」孔子說：「齊桓公多次召集諸侯盟會，不用武力就讓天下和平，這都是管仲的功勞。這就是他的仁德啊！這就是他的仁德啊！」",
-    storyTitle: "大愛與小愛",
-    storyContent: "子路覺得管仲沒為舊老闆死，很不講義氣。但孔子覺得，管仲活下來是為了幫助更多百姓、停止戰爭。這教我們，有時候為了更大的理想和更多人的幸福，我們要學會放下個人的小恩怨。",
+    id: "11-15", world: 11, stage: 15, book: "先進第十一", englishBook: "Xian Jin XI", title: "過猶不及", englishTitle: "The Middle Way",
+    originalText: "子貢問：「師與商也孰賢？」子曰：「師也過，商也不及。」曰：「然則師愈與？」子曰：「過猶不及。」",
+    translation: "子貢問：「子張和子夏哪一個更優秀？」孔子說：「子張做得太過頭，子夏做得不夠。」子貢問：「那麼是子張更好一點嗎？」孔子說：「過頭和不夠是一樣不好的。」",
+    storyTitle: "剛剛好最好",
+    storyContent: "孔子教我們一個很重要的道理：做事情要「適度」。太熱情會嚇到人，太冷淡會沒朋友。最好的狀態就是「剛剛好」。這就是有名的「過猶不及」。",
     flashcards: [
-      { id: "f14-15-1", term: "九合諸侯", definition: "多次召集各國領袖開會、結盟" },
-      { id: "f14-15-2", term: "不以兵車", definition: "不用武力、不靠打仗" }
+      { id: "f11-15-1", term: "孰賢", definition: "哪一個更優秀、更有才德" },
+      { id: "f11-15-2", term: "過猶不及", definition: "做得太過頭跟做得不夠是一樣不好的" }
     ]
   },
   {
-    id: "14-16", world: 14, stage: 16, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "微管仲，吾其被髮左衽", englishTitle: "Without Guan Zhong",
-    originalText: "子貢曰：「管仲非仁者與？桓公殺公子糾，不能死，又相之。」子曰：「管仲相桓公，霸諸侯，一匡天下，民到于今受其賜。微管仲，吾其被髮左衽矣。豈若匹夫匹婦之為諒也，自經於溝瀆而莫之知也。」",
-    translation: "子貢也懷疑管仲不仁。孔子說：「管仲輔佐齊桓公，稱霸諸侯，整頓天下，百姓到現在還受他的恩惠。如果沒有管仲，我們現在可能還披頭散髮、穿著野蠻人的衣服呢。難道要像普通男女那樣守著小信用，隨便在山溝裡上吊自殺而沒人知道嗎？」",
-    storyTitle: "文化的守護者",
-    storyContent: "孔子非常感謝管仲保護了華夏文化，讓大家能過上有禮貌、有秩序的生活。他覺得管仲的貢獻太大了，不能用一般的小標準去衡量他。這教我們，看人要看他的大貢獻、大方向。",
+    id: "11-16", world: 11, stage: 16, book: "先進第十一", englishBook: "Xian Jin XI", title: "季氏富於周公", englishTitle: "The Wealth of the Ji Family",
+    originalText: "季氏富於周公，而求也為之聚斂而附益之。子曰：「非吾徒也。小子鳴鼓而攻之可也。」",
+    translation: "季氏比周公還要富有，而冉求還幫他搜刮錢財，增加他的財富。孔子說：「他不是我的學生了。弟子們，你們可以大張旗鼓地去聲討他！」",
+    storyTitle: "老師的憤怒",
+    storyContent: "孔子非常注重正義。當他發現學生冉求在幫壞官員欺負窮人、搜刮錢財時，他非常生氣，甚至叫大家去抗議。這教我們，不能為了工作或利益就去做違背良心的事。",
     flashcards: [
-      { id: "f14-16-1", term: "被髮左衽", definition: "披頭散髮、衣服左開襟，指落後野蠻的樣子（音同披髮左任）" },
-      { id: "f14-16-2", term: "自經於溝瀆", definition: "在山溝水渠邊上吊自殺（指無謂的犧牲）" }
+      { id: "f11-16-1", term: "聚斂", definition: "搜刮錢財、徵收重稅" },
+      { id: "f11-16-2", term: "鳴鼓而攻之", definition: "大張旗鼓地揭發和聲討" }
     ]
   },
   {
-    id: "14-17", world: 14, stage: 17, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "公叔文子之臣僎", englishTitle: "Gongshu Wenzi's Officer Zhuan",
-    originalText: "公叔文子之臣僎，與文子同升諸朝。子聞之，曰：「可以為『文』矣。」",
-    translation: "公叔文子的家臣僎，被文子提拔，跟他一起在朝廷當官。孔子聽說後說：「公叔文子死後可以得到『文』這個美名了。」",
-    storyTitle: "提拔人才的氣度",
-    storyContent: "公叔文子非常大方，他發現自己的部下很有才華，就主動推薦他跟自己當一樣大的官，一點也不嫉妒。孔子覺得這種「愛才」的精神非常高尚。這教我們，看到別人優秀要幫他，而不是打壓他。",
+    id: "11-17", world: 11, stage: 17, book: "先進第十一", englishBook: "Xian Jin XI", title: "柴也愚", englishTitle: "The Disciples' Characters",
+    originalText: "柴也愚，參也魯，師也辟，由也喭。」",
+    translation: "高柴愚直，曾參遲鈍，子張偏激，子路魯莽。」",
+    storyTitle: "缺點也是特點",
+    storyContent: "孔子對學生的評價很直接。他知道每個人都有缺點，但他依然愛他們、教導他們。這教我們，要誠實面對自己的缺點，然後努力去改進，這樣才能變得更好。",
     flashcards: [
-      { id: "f14-17-1", term: "同升諸朝", definition: "一起在朝廷當官、地位平等" },
-      { id: "f14-17-2", term: "文", definition: "古代的一種美諡，代表有文化、有品德" }
+      { id: "f11-17-1", term: "魯", definition: "遲鈍、不靈活" },
+      { id: "f11-17-2", term: "喭", definition: "魯莽、粗魯（音同諺）" }
     ]
   },
   {
-    id: "14-18", world: 14, stage: 18, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "衛靈公無道", englishTitle: "Duke Ling of Wei",
-    originalText: "子言衛靈公之無道也，康子曰：「夫如是，奚而不喪？」孔子曰：「仲叔圉治賓客，祝鮀治宗廟，王孫賈治軍旅。夫如是，奚其喪？」",
-    translation: "孔子說衛靈公不講道理。季康子問：「既然這樣，為什麼他沒亡國？」孔子說：「因為他有仲叔圉接待賓客，祝鮀管理宗廟，王孫賈管理軍隊。有這些人才在，怎麼會亡國呢？」",
-    storyTitle: "人才救了國家",
-    storyContent: "孔子說，雖然衛靈公不是個好國王，但他很會用人。只要身邊有一群專業、負責的大臣，國家就能維持下去。這教我們，一個團隊的成功，靠的是每個成員的努力。",
+    id: "11-18", world: 11, stage: 18, book: "先進第十一", englishBook: "Xian Jin XI", title: "回也其庶乎", englishTitle: "Hui is Almost There",
+    originalText: "子曰：「回也其庶乎，屢空。賜不受命，而貨殖焉，億則屢中。」",
+    translation: "孔子說：「顏回的學問差不多了吧，但他經常窮得沒飯吃。子貢不安於天命，去經商做生意，每次預測行情都很準確。」",
+    storyTitle: "窮學霸與富商",
+    storyContent: "孔子比較了兩個學生：顏回非常有智慧但很窮，子貢很有才華而且很會賺錢。孔子覺得每個人都有自己的生活方式，只要能守住品德，無論貧窮或富有都是值得尊敬的。",
     flashcards: [
-      { id: "f14-18-1", term: "無道", definition: "不講道理、昏庸無能" },
-      { id: "f14-18-2", term: "奚而不喪", definition: "為什麼沒有滅亡呢？" }
+      { id: "f11-18-1", term: "庶乎", definition: "差不多、接近完美了" },
+      { id: "f11-18-2", term: "貨殖", definition: "做生意、經商致富" },
+      { id: "f11-18-3", term: "億則屢中", definition: "預測行情每次都猜中（億通臆）" }
     ]
   },
   {
-    id: "14-19", world: 14, stage: 19, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "其言之不怍", englishTitle: "Speaking Without Shame",
-    originalText: "子曰：「其言之不怍，則為之也難。」",
-    translation: "孔子說：「說大話而不感到慚愧，那麼做起來就很困難了。」",
-    storyTitle: "不要吹牛",
-    storyContent: "孔子提醒我們：如果你說話很誇張、愛吹牛，卻一點也不覺得不好意思，那你最後一定做不到。這教我們，說話要留餘地，先做到了再說，才是真正的厲害。",
+    id: "11-19", world: 11, stage: 19, book: "先進第十一", englishBook: "Xian Jin XI", title: "善人之道", englishTitle: "The Way of a Good Man",
+    originalText: "子張問善人之道。子曰：「不踐跡，亦不入於室。」",
+    translation: "子張問怎麼做一個好人。孔子說：「如果不踩著前人的腳印走（指模仿），學問也就沒辦法進入高深的境界。」",
+    storyTitle: "學習的腳印",
+    storyContent: "孔子說，學習要先從「模仿」好的榜樣開始。如果你不願意跟著前人的智慧走，只想自己亂闖，是很難成功的。這教我們要尊重傳統，在基礎打好之後再發揮創意。",
     flashcards: [
-      { id: "f14-19-1", term: "不怍", definition: "不感到慚愧、不臉紅（音同做）" },
-      { id: "f14-19-2", term: "為之難", definition: "實踐起來非常困難" }
+      { id: "f11-19-1", term: "踐跡", definition: "踩著前人的腳印走、遵循前人的道路" },
+      { id: "f11-19-2", term: "入於室", definition: "進入高深的境界" }
     ]
   },
   {
-    id: "14-20", world: 14, stage: 20, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "陳成子弒簡公", englishTitle: "Chen Chengzi's Regicide",
-    originalText: "陳成子弒簡公。孔子沐浴而朝，告於哀公曰：「陳恆弒其君，請討之。」公曰：「告夫三子！」孔子曰：「以吾從大夫之後，不敢不告也。君曰『告夫三子』者！」之三子告，不可。孔子曰：「以吾從大夫之後，不敢不告也。」",
-    translation: "陳成子殺了齊簡公。孔子洗澡更衣後上朝，請求魯哀公出兵討伐。哀公說：「去告訴那三位權臣吧！」孔子感嘆：「因為我曾是大夫，不敢不報告。但國王卻讓我去求臣子！」他去告訴三位權臣，他們不同意。孔子又感嘆：「因為我曾是大夫，我已經盡到報告的責任了。」",
-    storyTitle: "堅持正義的勇氣",
-    storyContent: "孔子雖然已經退休了，但聽到鄰國發生不義的事，他依然堅持要站出來說話。雖然最後沒成功，但他盡到了自己的責任。這教我們，結果不一定能控制，但「做對的事」的態度不能丟。",
+    id: "11-20", world: 11, stage: 20, book: "先進第十一", englishBook: "Xian Jin XI", title: "論篤是與", englishTitle: "Judging by Words",
+    originalText: "子曰：「論篤是與，君子者乎？色莊者乎？」",
+    translation: "孔子說：「如果只因為一個人說話誠懇就贊成他，那他真的是君子呢？還是只是外表裝得很莊重的人呢？」",
+    storyTitle: "不要被話語騙了",
+    storyContent: "孔子提醒我們：看人不能只聽他說什麼。有些人很會演戲，說話很好聽，但心裡卻不是那樣。我們要觀察他的「行動」，才能知道他是不是真正的君子。",
     flashcards: [
-      { id: "f14-20-1", term: "弒", definition: "下級殺上級、臣殺君（音同適）" },
-      { id: "f14-20-2", term: "沐浴而朝", definition: "洗澡更衣，莊重地上朝" }
+      { id: "f11-20-1", term: "論篤", definition: "言論誠懇、踏實" },
+      { id: "f11-20-2", term: "色莊", definition: "外表裝得很莊重" }
     ]
   },
   {
-    id: "14-21", world: 14, stage: 21, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "勿欺也，而犯之", englishTitle: "Not Deceiving the Ruler",
-    originalText: "子路問事君。子曰：「勿欺也，而犯之。」",
-    translation: "子路問怎麼侍奉君主。孔子說：「不要欺騙他，但可以當面冒犯（指直言勸諫）他。」",
-    storyTitle: "誠實的勇氣",
-    storyContent: "孔子教子路：對老闆要絕對誠實，不能背後搞鬼。如果老闆做錯了，你要勇敢地當面指出來，就算他會生氣也要說。這教我們，真正的忠誠是敢說真話，而不是只會拍馬屁。",
+    id: "11-21", world: 11, stage: 21, book: "先進第十一", englishBook: "Xian Jin XI", title: "聞斯行諸", englishTitle: "Acting on What is Heard",
+    originalText: "子路問：「聞斯行諸？」子曰：「有父兄在，如之何其聞斯行之？」冉有問：「聞斯行諸？」子曰：「聞斯行之。」公西華曰：「由也問聞斯行諸，子曰『有父兄在』；求也問聞斯行諸，子曰『聞斯行之』。赤也惑，敢問。」子曰：「求也退，故進之；由也兼人，故退之。」",
+    translation: "子路問：「聽到了就去做嗎？」孔子說：「還有父兄在，怎麼能聽到了就去做呢（要先請示）？」冉有問：「聽到了就去做嗎？」孔子說：「聽到了就去做。」公西華很困惑，問為什麼答案不一樣。孔子說：「冉有做事退縮，所以我鼓勵他前進；子路好勇鬥狠，所以我讓他冷靜一點。」",
+    storyTitle: "因材施教的妙方",
+    storyContent: "這是孔子最有名的一段故事！他對不同的學生給出完全相反的建議，因為他知道每個人的缺點不同。這教我們，最好的教育不是給標準答案，而是給出「最適合你」的建議。",
     flashcards: [
-      { id: "f14-21-1", term: "勿欺", definition: "不要欺騙、要誠實" },
-      { id: "f14-21-2", term: "犯之", definition: "冒犯他（指勇敢提出反對意見）" }
+      { id: "f11-21-1", term: "聞斯行諸", definition: "聽到了就去做嗎？（諸：之乎的合音）" },
+      { id: "f11-21-2", term: "兼人", definition: "好勇過人、勇於勝過別人" }
     ]
   },
   {
-    id: "14-22", world: 14, stage: 22, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "君子上達", englishTitle: "Reaching Upward",
-    originalText: "子曰：「君子上達，小人下達。」",
-    translation: "孔子說：「君子向上追求高深的道理，小人向下追求物質的利益。」",
-    storyTitle: "向上的力量",
-    storyContent: "孔子說，好人每天想的是怎麼讓自己更有智慧、更有品德（上達）；自私的人每天想的是怎麼賺更多錢、怎麼玩得更爽（下達）。這教我們，要給自己設定更高尚的人生目標。",
+    id: "11-22", world: 11, stage: 22, book: "先進第十一", englishBook: "Xian Jin XI", title: "子畏於匡，顏淵後", englishTitle: "Hui Falling Behind",
+    originalText: "子畏於匡，顏淵後。子曰：「吾以女為死矣。」曰：「子在，回何敢死？」",
+    translation: "孔子在匡地遇到危險，顏淵走散了，後來才趕上。孔子說：「我以為你已經死了呢！」顏淵說：「老師還在，顏回怎麼敢死呢？」",
+    storyTitle: "最動人的對話",
+    storyContent: "這段對話展現了孔子與顏回之間深厚的感情。孔子擔心得要命，顏回則用幽默又真誠的方式表達他對老師的忠誠。這教我們，真正的師生情誼就像家人一樣珍貴。",
     flashcards: [
-      { id: "f14-22-1", term: "上達", definition: "向上進步，追求真理與品德" },
-      { id: "f14-22-2", term: "下達", definition: "向下墮落，只追求物質與私利" }
+      { id: "f11-22-1", term: "後", definition: "落在後面、走散了" },
+      { id: "f11-22-2", term: "何敢死", definition: "怎麼敢死（表示要保護老師、傳承學問）" }
     ]
   },
   {
-    id: "14-23", world: 14, stage: 23, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "古之學者為己", englishTitle: "Learning for Oneself",
-    originalText: "子曰：「古之學者為己，今之學者為人。」",
-    translation: "孔子說：「古代的學者學習是為了充實自己，現在的學者學習是為了給別人看。」",
-    storyTitle: "為了誰而讀書？",
-    storyContent: "孔子發現，很多人讀書是為了炫耀、為了讓別人覺得自己很厲害（為人）。他覺得真正的學習應該是為了讓自己變得更好、更快樂（為己）。這教我們，學習的收穫是自己的，不需要演給別人看。",
+    id: "11-23", world: 11, stage: 23, book: "先進第十一", englishBook: "Xian Jin XI", title: "所謂大臣者", englishTitle: "What is a Great Minister?",
+    originalText: "季子然問：「仲由、冉求可謂大臣與？」子曰：「所謂大臣者，以道事君，不可則止。今由與求也，可謂具臣矣。」",
+    translation: "季子然問：「子路和冉求可以說是偉大的大臣嗎？」孔子說：「所謂偉大的大臣，是用正確的道理侍奉君主，如果行不通就辭職。現在他們兩個，只能算是湊人數的大臣罷了。」",
+    storyTitle: "不當「湊人數」的人",
+    storyContent: "孔子對學生的要求很高。他覺得一個好的官員不能只是聽話，還要敢於糾正老闆的錯誤。如果老闆不聽，寧可不當官。這教我們，堅持原則比保住工作更重要。",
     flashcards: [
-      { id: "f14-23-1", term: "為己", definition: "為了提升自己的修養和智慧" },
-      { id: "f14-23-2", term: "為人", definition: "為了裝飾外表、炫耀給別人看" }
+      { id: "f11-23-1", term: "不可則止", definition: "如果道理行不通就停止、辭職" },
+      { id: "f11-23-2", term: "具臣", definition: "備位充數的大臣、平庸的官員" }
     ]
   },
   {
-    id: "14-24", world: 14, stage: 24, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "蘧伯玉使人於孔子", englishTitle: "Qu Boyu's Messenger",
-    originalText: "蘧伯玉使人於孔子。孔子與之坐而問焉，曰：「夫子何為？」對曰：「夫子欲寡其過而未能也。」使者出。子曰：「使乎！使乎！」",
-    translation: "蘧伯玉派使者來看孔子。孔子請他坐下問：「你家主人最近在忙什麼？」使者說：「主人想減少自己的過錯，但還沒能做到。」使者走後，孔子感嘆：「真是位好使者啊！真是位好使者啊！」",
-    storyTitle: "謙虛的使者",
-    storyContent: "孔子非常喜歡這個使者的回答。因為使者沒有吹噓主人有多厲害，而是誠實地說主人還在努力改進。這展現了主人和使者都很謙虛。這教我們，承認自己的不足，才是真正的進步。",
+    id: "11-24", world: 11, stage: 24, book: "先進第十一", englishBook: "Xian Jin XI", title: "賊夫人之子", englishTitle: "Harming the Young Man",
+    originalText: "子路使子羔為費宰。子曰：「賊夫人之子。」子路曰：「有民人焉，有社稷焉，何必讀書，然後為學？」子曰：「是故惡夫佞者。」",
+    translation: "子路派子羔去當費地的長官。孔子說：「這是害了人家的兒子啊（因為他還沒學好）。」子路說：「那裡有百姓，有祭祀，在實踐中學習也是學習，何必一定要讀書呢？」孔子說：「這就是我討厭那些愛狡辯的人的原因。」",
+    storyTitle: "讀書與實踐",
+    storyContent: "子路覺得直接去工作就是最好的學習，但孔子覺得基礎沒打好就去管人是很危險的。這教我們，雖然實踐很重要，但先充實好知識、做好準備也是非常必要的。",
     flashcards: [
-      { id: "f14-24-1", term: "欲寡其過", definition: "想要減少自己的過錯" },
-      { id: "f14-24-2", term: "使乎", definition: "多麼優秀的使者啊" }
+      { id: "f11-24-1", term: "賊", definition: "傷害、害了（音同則）" },
+      { id: "f11-24-2", term: "佞者", definition: "愛狡辯、口才好卻不正直的人（音同濘）" }
     ]
   },
   {
-    id: "14-25", world: 14, stage: 25, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "不在其位，不謀其政", englishTitle: "Not in That Position",
-    originalText: "子曰：「不在其位，不謀其政。」曾子曰：「君子思不出其位。」",
-    translation: "孔子說：「不在那個職位上，就不去干預那個職位的政務。」曾子說：「君子的考慮不超出自己的職權範圍。」",
-    storyTitle: "做好本分",
-    storyContent: "孔子和曾子都強調：每個人都要先把自己的責任負好。如果你不是班長，就不要隨便去管班級的公款；如果你不是老師，就不要隨便去改別人的作業。這教我們要尊重別人的職權。",
+    id: "11-25", world: 11, stage: 25, book: "先進第十一", englishBook: "Xian Jin XI", title: "子路、曾皙、冉有、公西華侍坐", englishTitle: "The Disciples' Aspirations",
+    originalText: "子路、曾皙、冉有、公西華侍坐。子曰：「以吾一日長乎女，毋吾以也。居則曰：『不吾知也！』如或知爾，則何以哉？」子路率爾而對曰：「千乘之國，攝乎大國之間，加之以師旅，因之以饑饉；由也為之，比及三年，可使有勇，且知方也。」夫子哂之。「求！爾何如？」對曰：「方六七十，如五六十，求也為之，比及三年，可使足民。如其禮樂，以俟君子。」「赤！爾何如？」對曰：「非曰能之，願學焉。宗廟之事，如會同，端章甫，願為小相焉。」「點！爾何如？」鼓瑟希，鏗爾，舍瑟而作，對曰：「異乎三子者之撰。」子曰：「何傷乎？亦各言其志也。」曰：「莫春者，春服既成，冠者五六人，童子六七人，浴乎沂，風乎舞雩，詠而歸。」夫子喟然歎曰：「吾與點也！」",
+    translation: "子路、曾皙、冉有、公西華陪孔子坐著。孔子讓大家說說夢想。子路想治理強國，孔子笑了笑。冉有想讓百姓富足。公西華想在外交場合當司儀。曾皙（點）說：「春天穿上春裝，帶幾個大人小孩，去河裡洗洗澡，在祭壇吹吹風，唱著歌回家。」孔子感嘆說：「我贊成曾皙的夢想啊！」",
+    storyTitle: "最美的夢想",
+    storyContent: "這是《論語》中最美的一段。別人都想當大官、做大事，但曾皙的夢想是「過好簡單快樂的生活」。孔子覺得，所有的努力最終都是為了讓大家能自由、快樂地生活。這教我們，幸福其實就在身邊。",
     flashcards: [
-      { id: "f14-25-1", term: "不謀其政", definition: "不去干預、策劃不屬於自己職權的事" },
-      { id: "f14-25-2", term: "思不出其位", definition: "考慮事情不超出自己的身份和責任" }
-    ]
-  },
-  {
-    id: "14-26", world: 14, stage: 26, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "君子恥其言而過其行", englishTitle: "Shame in Words Exceeding Deeds",
-    originalText: "子曰：「君子恥其言而過其行。」",
-    translation: "孔子說：「君子以說得多而做得少為恥。」",
-    storyTitle: "行動派君子",
-    storyContent: "孔子最討厭「光說不練」的人。他覺得如果你說得天花亂墜，最後卻只做了一點點，那是非常丟臉的事。這教我們，要做一個行動派，用成果來說話。",
-    flashcards: [
-      { id: "f14-26-1", term: "恥其言", definition: "以自己的言語（過多）為恥" },
-      { id: "f14-26-2", term: "過其行", definition: "超過了自己的行動、做得不夠多" }
-    ]
-  },
-  {
-    id: "14-27", world: 14, stage: 27, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "君子道者三", englishTitle: "Three Ways of a Gentleman",
-    originalText: "子曰：「君子道者三，我無能焉：仁者不憂，知者不惑，勇者不懼。」子貢曰：「夫子自道也。」",
-    translation: "孔子說：「君子的目標有三個，我都還沒做到：仁慈的人不憂慮，聰明的人不迷惑，勇敢的人不恐懼。」子貢說：「這正是老師您自己的寫照啊！」",
-    storyTitle: "孔子的謙虛",
-    storyContent: "孔子雖然已經是大家公認的聖人，但他依然覺得自己做得不夠好。這種「活到老、學到老、謙虛到老」的精神，才是他最偉大的地方。這教我們，越厲害的人越要懂得謙虛。",
-    flashcards: [
-      { id: "f14-27-1", term: "知者不惑", definition: "聰明的人能看清真相，不感到迷惑（知音同智）" },
-      { id: "f14-27-2", term: "自道", definition: "自我描述、自己的寫照" }
-    ]
-  },
-  {
-    id: "14-28", world: 14, stage: 28, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "子貢方人", englishTitle: "Zigong Criticizing Others",
-    originalText: "子貢方人。子曰：「賜也賢乎哉？夫我則不暇。」",
-    translation: "子貢在評論別人的短處。孔子說：「子貢啊，你已經很完美了嗎？我可沒時間去評論別人，我忙著改進自己都來不及了。」",
-    storyTitle: "少管閒事，多改缺點",
-    storyContent: "孔子幽默地提醒子貢：不要整天盯著別人的缺點看。與其花時間批評別人，不如把時間拿來讓自己變得更優秀。這教我們，自我提升比批評別人更有意義。",
-    flashcards: [
-      { id: "f14-28-1", term: "方人", definition: "評論、指責別人的短處" },
-      { id: "f14-28-2", term: "不暇", definition: "沒有空閒、沒時間" }
-    ]
-  },
-  {
-    id: "14-29", world: 14, stage: 29, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "不患人之不己知", englishTitle: "Not Worried About Being Unknown",
-    originalText: "子曰：「不患人之不己知，患其不能也。」",
-    translation: "孔子說：「不擔心別人不了解自己，只擔心自己沒有真本事。」",
-    storyTitle: "實力最重要",
-    storyContent: "孔子說，如果你很有才華，就算現在沒人知道，總有一天會發光的。但如果你沒本事，就算全世界都認識你，也沒用。這教我們，要專心累積實力，不要急著出名。",
-    flashcards: [
-      { id: "f14-29-1", term: "不己知", definition: "不了解自己" },
-      { id: "f14-29-2", term: "不能", definition: "沒有能力、沒有本事" }
-    ]
-  },
-  {
-    id: "14-30", world: 14, stage: 30, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "不逆詐，不億不信", englishTitle: "Not Anticipating Deceit",
-    originalText: "子曰：「不逆詐，不億不信，抑亦先覺者，是賢乎！」",
-    translation: "孔子說：「不預先猜測別人的欺詐，不臆測別人的不誠信，但卻能先察覺到這些情況，這才是賢人啊！」",
-    storyTitle: "善良而聰明",
-    storyContent: "孔子教我們：不要整天懷疑別人想騙你（那樣生活太累了）。我們要信任別人，但也要保持敏銳的觀察力，如果對方真的在騙人，我們要能立刻發現。這教我們要善良，但不能天真。",
-    flashcards: [
-      { id: "f14-30-1", term: "不逆詐", definition: "不預先猜測別人的欺詐" },
-      { id: "f14-30-2", term: "先覺", definition: "預先覺察、提早發現" }
-    ]
-  },
-  {
-    id: "14-31", world: 14, stage: 31, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "微生畝謂孔子", englishTitle: "Weisheng Mu and Confucius",
-    originalText: "微生畝謂孔子曰：「丘何為是栖栖者與？無乃為佞乎？」孔子曰：「非敢為佞也，疾固也。」",
-    translation: "微生畝對孔子說：「孔丘你為什麼整天忙忙碌碌、到處奔波呢？難道是為了展現你的口才嗎？」孔子說：「我不是敢於狡辯，我是討厭那些頑固不化、不肯改變世界的人。」",
-    storyTitle: "奔波的理由",
-    storyContent: "別人都笑孔子整天到處跑很辛苦，甚至懷疑他想出名。但孔子心裡想的是：世界這麼亂，我一定要去努力改變它！這教我們，為了理想而努力，不管別人怎麼說，都要堅持下去。",
-    flashcards: [
-      { id: "f14-31-1", term: "栖栖", definition: "忙忙碌碌、不安定、到處奔波的樣子（音同七）" },
-      { id: "f14-31-2", term: "疾固", definition: "討厭頑固不化的人" }
-    ]
-  },
-  {
-    id: "14-32", world: 14, stage: 32, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "驥不稱其力", englishTitle: "The Steed's Virtue",
-    originalText: "子曰：「驥不稱其力，稱其德也。」",
-    translation: "孔子說：「千里馬之所以被稱讚，不是因為牠的力氣大，而是因為牠的品性好。」",
-    storyTitle: "好馬要有好脾氣",
-    storyContent: "孔子用馬來比喻人：如果你很有才華、力氣很大，但脾氣很壞、不聽指揮，那大家還是不會喜歡你。真正的「千里馬」是既有能力又溫順可靠的。這教我們，品德比能力更重要。",
-    flashcards: [
-      { id: "f14-32-1", term: "驥", definition: "千里馬（音同寄）" },
-      { id: "f14-32-2", term: "稱其德", definition: "稱讚牠的品性、德行" }
-    ]
-  },
-  {
-    id: "14-33", world: 14, stage: 33, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "以德報怨", englishTitle: "Repaying Injury with Justice",
-    originalText: "或曰：「以德報怨，何如？」子曰：「何以報德？以直報怨，以德報德。」",
-    translation: "有人問：「用恩德來報答怨恨，怎麼樣？」孔子說：「那你要用什麼來報答恩德呢？應該用正直來報答怨恨，用恩德來報答恩德。」",
-    storyTitle: "公平的報答",
-    storyContent: "孔子不贊成盲目地對壞人好。他覺得：如果別人對你壞，你要用「公正」的態度去處理（該罰就罰）；如果別人對你好，你才要用「恩德」去回報。這教我們要明辨是非，做一個講道理的人。",
-    flashcards: [
-      { id: "f14-33-1", term: "以德報怨", definition: "用恩惠、德行去報答對自己有仇恨的人" },
-      { id: "f14-33-2", term: "以直報怨", definition: "用正直、公正的態度去對待怨恨" }
-    ]
-  },
-  {
-    id: "14-34", world: 14, stage: 34, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "莫我知也夫", englishTitle: "No One Knows Me",
-    originalText: "子曰：「莫我知也夫！」子貢曰：「何為其莫知子也？」子曰：「不怨天，不尤人，下學而上達。知我者其天乎！」",
-    translation: "孔子感嘆：「沒人了解我啊！」子貢問：「為什麼說沒人了解您呢？」孔子說：「我不抱怨上天，不責怪別人，我從基礎學起，向上追求高深道理。了解我的，大概只有上天吧！」",
-    storyTitle: "孤獨的先行者",
-    storyContent: "孔子的理想太偉大了，當時的人都聽不懂。雖然很孤獨，但孔子不生氣、不抱怨，他只是默默地繼續學習、繼續進步。這教我們，只要做的是對的事，就算現在沒人懂，也要堅持下去。",
-    flashcards: [
-      { id: "f14-34-1", term: "不尤人", definition: "不責怪別人、不遷怒他人" },
-      { id: "f14-34-2", term: "下學上達", definition: "從基礎學起，進而領悟高深的道理" }
-    ]
-  },
-  {
-    id: "14-35", world: 14, stage: 35, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "公伯寮愬子路", englishTitle: "Gongbo Liao's Slander",
-    originalText: "公伯寮愬子路於季孫。子服景伯以告，曰：「夫子固有惑志於公伯寮，吾力猶能肆諸市朝。」子曰：「道之將行也與，命也；道之將廢也與，命也。公伯寮其如命何？」",
-    translation: "公伯寮在季孫面前說子路的壞話。子服景伯告訴孔子：「季孫已經被動搖了，我的力量還能把公伯寮處死示眾。」孔子說：「理想如果能實現，是天命；如果不能實現，也是天命。公伯寮能把天命怎麼樣呢？」",
-    storyTitle: "聽天由命的豁達",
-    storyContent: "孔子面對壞人的破壞，表現得非常淡定。他覺得只要自己盡力了，剩下的就交給上天決定。他不想用暴力去解決問題。這教我們，做好自己的本分，其他的不要太過強求。",
-    flashcards: [
-      { id: "f14-35-1", term: "愬", definition: "毀謗、告狀（音同訴）" },
-      { id: "f14-35-2", term: "肆諸市朝", definition: "在街頭示眾（指處死）" }
-    ]
-  },
-  {
-    id: "14-36", world: 14, stage: 36, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "賢者辟世", englishTitle: "Sages Avoiding the World",
-    originalText: "子曰：「賢者辟世，其次辟地，其次辟色，其次辟言。」子曰：「作者七人矣。」",
-    translation: "孔子說：「賢人隱居以避開亂世，次一等的避開混亂的地方，再次一等的避開不禮貌的神色，最次一等的避開不好的言論。」孔子說：「這樣做的人已經有七個了。」",
-    storyTitle: "隱士的智慧",
-    storyContent: "孔子雖然想改變世界，但他也很尊敬那些因為世界太亂而選擇隱居的人。他覺得每個人都有權利選擇自己的生活方式。這教我們，在混亂的環境中，保持自己的清白是最重要的。",
-    flashcards: [
-      { id: "f14-36-1", term: "辟世", definition: "避開亂世（辟通避）" },
-      { id: "f14-36-2", term: "作者", definition: "這樣做的人、創始者" }
-    ]
-  },
-  {
-    id: "14-37", world: 14, stage: 37, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "子路宿於石門", englishTitle: "Zilu at Shimen",
-    originalText: "子路宿於石門。晨門曰：「奚自？」子路曰：「自孔氏。」曰：「是知其不可而為之者與？」",
-    translation: "子路在石門過夜。守門人問：「從哪裡來？」子路說：「從孔家來。」守門人說：「就是那個明知行不通卻還要去做的人嗎？」",
-    storyTitle: "知其不可而為之",
-    storyContent: "這是對孔子最經典的評價！雖然大家都覺得孔子的理想太難實現了，但孔子依然不放棄。這種「明知困難也要挑戰」的精神，正是人類進步的動力。這教我們要勇敢追求夢想，不要怕失敗。",
-    flashcards: [
-      { id: "f14-37-1", term: "奚自", definition: "從哪裡來？" },
-      { id: "f14-37-2", term: "知其不可而為之", definition: "明知做不到卻依然堅持去做" }
-    ]
-  },
-  {
-    id: "14-38", world: 14, stage: 38, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "子擊磬於衛", englishTitle: "Playing the Chime Stones",
-    originalText: "子擊磬於衛，有荷蕢而過孔氏之門者，曰：「有心哉，擊磬乎！」既而曰：「鄙哉，硜硜乎！莫己知也，斯己而已矣。深則厲，淺則揭。」子曰：「果哉！末之難矣。」",
-    translation: "孔子在衛國敲擊磬（樂器），一個背著草筐的人經過，說：「這敲磬的人很有心啊！」接著又說：「真鄙陋啊，這硜硜的聲音！沒人了解自己，就只管自己好了。水深就穿著衣服游過去，水淺就提著衣服走過去（指順應環境）。」孔子說：「真是果斷啊！如果能這樣想，就沒什麼困難了。」",
-    storyTitle: "音樂裡的堅持",
-    storyContent: "路過的隱士聽出孔子音樂裡的「堅持」，勸孔子隨和一點、不要太辛苦。孔子幽默地回答：如果能像你這樣什麼都不管，那生活當然很輕鬆，但我做不到啊！這教我們，每個人對生命都有不同的堅持。",
-    flashcards: [
-      { id: "f14-38-1", term: "荷蕢", definition: "背著草筐（音同賀愧）" },
-      { id: "f14-38-2", term: "深則厲淺則揭", definition: "比喻根據環境的變化而採取不同的對策" }
-    ]
-  },
-  {
-    id: "14-39", world: 14, stage: 39, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "高宗諒陰", englishTitle: "Gaozong's Mourning",
-    originalText: "子張曰：「《書》云：『高宗諒陰，三年不言。』何謂也？」子曰：「何必高宗，古之人皆然。君薨，百官總己以聽於冢宰三年。」",
-    translation: "子張問：「《尚書》說：『商王高宗守喪，三年不說話。』是什麼意思？」孔子說：「不只是高宗，古代的人都這樣。國王去世後，官員們都各司其職，聽從宰相的指揮，持續三年。」",
-    storyTitle: "對長輩的敬意",
-    storyContent: "孔子解釋，古代的人非常重視對父母的愛。當國王去世，新國王會安靜地守喪三年，表示對父親的思念。這教我們，愛與尊重是需要時間和行動來表達的。",
-    flashcards: [
-      { id: "f14-39-1", term: "諒陰", definition: "古代君主守喪的居所（音同亮暗）" },
-      { id: "f14-39-2", term: "冢宰", definition: "古代的宰相、百官之長（音同種宰）" }
-    ]
-  },
-  {
-    id: "14-40", world: 14, stage: 40, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "上好禮，則民易使", englishTitle: "Rulers Loving Rites",
-    originalText: "子曰：「上好禮，則民易使也。」",
-    translation: "孔子說：「領導者愛好禮儀，百姓就容易引導了。」",
-    storyTitle: "禮儀的魔力",
-    storyContent: "孔子說，如果當官的人很有禮貌、很講規矩，那百姓也會跟著變得有禮貌。大家互相尊重，事情就很好辦。這教我們，良好的風氣是從上面帶動下來的。",
-    flashcards: [
-      { id: "f14-40-1", term: "上好禮", definition: "領導者、長輩愛好禮儀" },
-      { id: "f14-40-2", term: "易使", definition: "容易引導、容易管理" }
-    ]
-  },
-  {
-    id: "14-41", world: 14, stage: 41, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "修己以安人", englishTitle: "Cultivating Oneself",
-    originalText: "子路問君子。子曰：「修己以敬。」曰：「如斯而已乎？」曰：「修己以安人。」曰：「如斯而已乎？」曰：「修己以安百姓。修己以安百姓，堯舜其猶病諸！」",
-    translation: "子路問什麼是君子。孔子說：「修養自己，保持嚴謹。」子路問：「這樣就行了嗎？」孔子說：「修養自己，讓身邊的人安樂。」子路又問：「這樣就行了嗎？」孔子說：「修養自己，讓所有百姓都安樂。這件事連堯舜兩位聖王都還覺得做不夠呢！」",
-    storyTitle: "修養的三個層次",
-    storyContent: "孔子教子路，變強大的過程是：\n1. 讓自己變好（修己）。\n2. 讓家人朋友變好（安人）。\n3. 讓全世界變好（安百姓）。\n這是一個需要一輩子去努力的偉大目標。這教我們要不斷進步。",
-    flashcards: [
-      { id: "f14-41-1", term: "修己以敬", definition: "用嚴謹、恭敬的態度來修養自己" },
-      { id: "f14-41-2", term: "堯舜其猶病諸", definition: "連堯舜都擔心自己做得不夠好（病：憂慮、擔心）" }
-    ]
-  },
-  {
-    id: "14-42", world: 14, stage: 42, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "原壤夷俟", englishTitle: "Yuan Rang Sitting Improperly",
-    originalText: "原壤夷俟。子曰：「幼而不孫弟，長而無述焉，老而不死，是為賊！」以杖叩其脛。",
-    translation: "原壤張開雙腿坐著等孔子。孔子罵他：「小時候不講禮貌，長大後沒什麼貢獻，老了還不死，真是個害人精！」說完用拐杖敲他的小腿。」",
-    storyTitle: "孔子也會生氣",
-    storyContent: "孔子對老朋友原壤很不客氣，因為原壤太隨便、太沒禮貌了。孔子覺得人活著就要不斷學習和貢獻，不能只是混日子。這教我們，要珍惜生命，做一個有用的人。",
-    flashcards: [
-      { id: "f14-42-1", term: "夷俟", definition: "張開雙腿坐著等候（非常不禮貌的姿勢）（音同移四）" },
-      { id: "f14-42-2", term: "脛", definition: "小腿（音同靜）" }
-    ]
-  },
-  {
-    id: "14-43", world: 14, stage: 43, book: "憲問第十四", englishBook: "Xian Wen XIV", title: "闕黨童子將命", englishTitle: "The Boy from Que Village",
-    originalText: "闕黨童子將命。或問之曰：「益者與？」子曰：「吾見其居於位也，見其與先生並行也。非求益者也，欲速成者也。」",
-    translation: "闕黨的一個童子來傳話。有人問：「他是個求進步的孩子嗎？」孔子說：「我看到他坐在大人的位置上，看到他跟長輩並肩走路。他不是個求進步的人，而是個急於求成的人。」",
-    storyTitle: "不要急著長大",
-    storyContent: "孔子觀察一個小朋友，發現他很不守規矩，總想表現得跟大人一樣。孔子覺得，學習要一步一步來，不能還沒學會走就想跑。這教我們，要腳踏實地，不要愛慕虛榮、急功近利。",
-    flashcards: [
-      { id: "f14-43-1", term: "將命", definition: "傳達命令、傳話" },
-      { id: "f14-43-2", term: "欲速成者", definition: "急於求成、想走捷徑的人" }
+      { id: "f11-25-1", term: "哂", definition: "微笑、嘲笑（這裡指善意的笑）（音同審）" },
+      { id: "f11-25-2", term: "舞雩", definition: "古代求雨的祭壇（音同魚）" },
+      { id: "f11-25-3", term: "吾與點也", definition: "我贊成曾皙（點）的志向" }
     ]
   }
 ];

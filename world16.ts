@@ -1,210 +1,268 @@
 import { Lesson } from '../lessons';
 
-export const world10Lessons: Omit<Lesson, 'phoneticOriginalText'>[] = [
+export const world12Lessons: Omit<Lesson, 'phoneticOriginalText'>[] = [
   {
-    id: "10-1", world: 10, stage: 1, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "孔子的生活禮儀", englishTitle: "Confucius' Daily Etiquette",
-    originalText: "廄焚。子退朝，曰：「傷人乎？」不問馬。",
-    translation: "馬廄失火了。孔子退朝回來，問：「傷到人了嗎？」沒有問馬的情況。",
-    storyTitle: "愛人的心",
-    storyContent: "在古代，馬是非常昂貴的財產。有一天孔子家的馬房失火了，孔子回家後第一句話就是關心人的安全，而不是關心昂貴的馬。這展現了孔子「仁」的精神：在他心裡，人的生命永遠比財產更重要。",
+    id: "12-1", world: 12, stage: 1, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "克己復禮為仁", englishTitle: "Restraining Oneself",
+    originalText: "顏淵問仁。子曰：「克己復禮為仁。一日克己復禮，天下歸仁焉。為仁由己，而由人乎哉？」顏淵曰：「請問其目。」子曰：「非禮勿視，非禮勿聽，非禮勿言，非禮勿動。」",
+    translation: "顏淵問什麼是仁。孔子說：「克制自己的私欲，使言語行動回到禮的規範，這就是仁。一旦做到了，天下的人都會稱許你是個仁人。實行仁德全靠自己，難道還靠別人嗎？」顏淵問：「請問具體做法。」孔子說：「不合禮的不看，不合禮的不聽，不合禮的不說，不合禮的不做。」",
+    storyTitle: "仁者的四個不",
+    storyContent: "孔子教顏回，要做一個善良的人（仁），首先要學會管理好自己。他給了四個超級實用的建議：不看壞東西、不聽壞話、不說髒話、不做壞事。這教我們，品德是從拒絕誘惑、守住規矩開始的。",
     flashcards: [
-      { id: "f10-1-1", term: "廄", definition: "養馬的房舍" },
-      { id: "f10-1-2", term: "不問馬", definition: "不先詢問馬的情況（強調愛人）" }
+      { id: "f12-1-1", term: "克己復禮", definition: "克制私欲，使行為符合禮儀規範" },
+      { id: "f12-1-2", term: "非禮勿視", definition: "不合乎禮儀規範的事物不去看" }
     ]
   },
   {
-    id: "10-2", world: 10, stage: 2, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "孔子於鄉黨", englishTitle: "Confucius in His Village",
-    originalText: "孔子於鄉黨，恂恂如也，似不能言者。其在宗廟朝廷，便便言，唯謹爾。",
-    translation: "孔子在鄉里中，表現得溫和恭順，好像不擅長說話的樣子。但在宗廟和朝廷中，他卻口齒伶俐、辯才無礙，只是說話非常謹慎罷了。",
-    storyTitle: "看場合說話",
-    storyContent: "孔子非常懂得禮貌。在長輩和鄰居面前，他很謙虛、話不多；但在正式的辦公場合，他會清楚地表達意見，但依然保持禮貌。這教我們，在不同的場合要展現出適當的態度。",
+    id: "12-2", world: 12, stage: 2, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "己所不欲，勿施於人", englishTitle: "The Golden Rule",
+    originalText: "仲弓問仁。子曰：「出門如見大賓，使民如承大祭。己所不欲，勿施於人。在邦無怨，在家無怨。」",
+    translation: "仲弓問什麼是仁。孔子說：「出門辦事像接待貴賓一樣莊重，使喚百姓像舉行大祭一樣嚴肅。自己不想要的，不要施加在別人身上。在國家做事不招人怨恨，在家族做事也不招人怨恨。」",
+    storyTitle: "同理心小超人",
+    storyContent: "孔子說，如果你不喜歡被別人推擠，那就不要推擠別人。這就是有名的「黃金法則」：己所不欲，勿施於人。這教我們要學會換位思考，尊重別人的感受。",
     flashcards: [
-      { id: "f10-2-1", term: "恂恂如", definition: "溫和恭順、謙虛的樣子" },
-      { id: "f10-2-2", term: "便便言", definition: "口齒伶俐、明白流暢地說話" }
+      { id: "f12-2-1", term: "己所不欲", definition: "自己不想要、不喜歡的事物" },
+      { id: "f12-2-2", term: "勿施於人", definition: "不要強加在別人身上" }
     ]
   },
   {
-    id: "10-3", world: 10, stage: 3, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "朝，與下大夫言", englishTitle: "At Court",
-    originalText: "朝，與下大夫言，侃侃如也；與上大夫言，誾誾如也。君在，踧踖如也，與與如也。",
-    translation: "上朝時，跟下大夫說話，神態從容不迫；跟上大夫說話，神態正直而溫和。君主在場時，表現得恭敬而不安，但儀態依然和諧得體。",
-    storyTitle: "優雅的社交",
-    storyContent: "孔子在朝廷裡跟不同等級的官員說話，都有不同的禮節。他對每個人都很尊重，但也會根據對方的身份調整自己的態度。這不是巴結，而是一種對社會秩序的尊重。",
+    id: "12-3", world: 12, stage: 3, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "仁者其言也訒", englishTitle: "Cautious in Speech",
+    originalText: "司馬牛問仁。子曰：「仁者其言也訒。」曰：「其言也訒，斯謂之仁已乎？」子曰：「為之難，言之得無訒乎？」",
+    translation: "司馬牛問什麼是仁。孔子說：「仁人說話是慎重的。」司馬牛問：「說話慎重，這就可以說是仁了嗎？」孔子說：「做起來那麼困難，說起來能不慎重嗎？」",
+    storyTitle: "說話前先想想",
+    storyContent: "孔子覺得，要做一個好人很難，所以我們說話不能太隨便。如果你隨便答應別人卻做不到，那就不是仁了。這教我們，說話要負責任，不要只會吹牛。",
     flashcards: [
-      { id: "f10-3-1", term: "侃侃如", definition: "從容不迫、理直氣壯的樣子" },
-      { id: "f10-3-2", term: "誾誾如", definition: "正直而溫和的樣子（音同銀）" },
-      { id: "f10-3-3", term: "踧踖如", definition: "恭敬不安、謹慎的樣子（音同促及）" }
+      { id: "f12-3-1", term: "訒", definition: "說話遲鈍、慎重的樣子（音同認）" },
+      { id: "f12-3-2", term: "得無", definition: "能不、難道不" }
     ]
   },
   {
-    id: "10-4", world: 10, stage: 4, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "君召使擯", englishTitle: "Summoned by the Ruler",
-    originalText: "君召使擯，色勃如也，足躩如也。揖所與立，左右手。衣前後，襜如也。趨進，翼如也。賓退，必復命曰：「賓不顧矣。」",
-    translation: "君主召他去接待賓客，他神色莊重，腳步輕快。向左右兩邊的人作揖，衣服前後擺動，整齊而不亂。快步前進時，像鳥兒展開翅膀一樣優雅。客人走後，一定回報說：「客人已經不回頭看了（表示接待圓滿）。」",
-    storyTitle: "專業的接待員",
-    storyContent: "孔子接待外賓時非常專業。他的每一個動作、每一件衣服的擺動都經過練習，看起來既莊重又優雅。這展現了他對工作的認真和對客人的最高敬意。",
+    id: "12-4", world: 12, stage: 4, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "君子不憂不懼", englishTitle: "No Anxiety or Fear",
+    originalText: "司馬牛問君子。子曰：「君子不憂不懼。」曰：「不憂不懼，斯謂之君子已乎？」子曰：「內省不疚，夫何憂何懼？」",
+    translation: "司馬牛問什麼是君子。孔子說：「君子不憂慮，不恐懼。」司馬牛問：「不憂慮不恐懼，這就可以說是君子了嗎？」孔子說：「自我反省而沒有愧疚，還有什麼好憂慮和恐懼的呢？」",
+    storyTitle: "問心無愧",
+    storyContent: "孔子說，如果你每天都做對的事，沒有做任何對不起別人的壞事，那你心裡就會非常踏實。這種「問心無愧」的感覺，能讓你變得非常勇敢，什麼都不怕！",
     flashcards: [
-      { id: "f10-4-1", term: "擯", definition: "接待賓客（音同賓）" },
-      { id: "f10-4-2", term: "襜如", definition: "衣服整齊擺動的樣子（音同沾）" },
-      { id: "f10-4-3", term: "翼如", definition: "像鳥張開翅膀一樣優雅、輕快" }
+      { id: "f12-4-1", term: "內省不疚", definition: "自我反省而沒有感到愧疚（疚音同舊）" },
+      { id: "f12-4-2", term: "夫", definition: "發語詞，這裡指「那」（音同扶）" }
     ]
   },
   {
-    id: "10-5", world: 10, stage: 5, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "執圭", englishTitle: "Holding the Jade Scepter",
-    originalText: "執圭，鞠躬如也，如不勝。上如揖，下如授。戰色而栗，足蹜蹜，如有循。享禮，有容色。私覿，愉愉如也。",
-    translation: "拿著玉圭（出使的憑證）時，彎著腰，好像拿不動一樣。舉起時像在作揖，放下時像在遞東西。神色緊張而戰慄，腳步細碎，好像沿著線走。在正式獻禮時，神色和藹。私下會見時，輕鬆愉快。」",
-    storyTitle: "出差的禮儀",
-    storyContent: "孔子代表國家出差時，拿著神聖的玉圭，表現得非常謹慎、小心翼翼。但在非正式的聊天場合，他也會變得很親切、很放鬆。這教我們，要分清楚「正式」與「非正式」的界線。",
+    id: "12-5", world: 12, stage: 5, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "死生有命", englishTitle: "Life and Death",
+    originalText: "司馬牛憂曰：「人皆有兄弟，我獨亡。」子夏曰：「商聞之矣：死生有命，富貴在天。君子敬而無失，與人恭而有禮，四海之內，皆兄弟也。君子何患乎無兄弟也？」",
+    translation: "司馬牛憂愁地說：「別人家都有兄弟，唯獨我沒有。」子夏說：「我聽說過：死生由命運決定，富貴由上天安排。君子只要做事認真沒有過失，對人恭敬有禮，那麼天下的人都是你的兄弟。君子何必擔心沒有兄弟呢？」",
+    storyTitle: "全世界都是好朋友",
+    storyContent: "子夏安慰司馬牛：雖然你沒有親兄弟，但只要你是一個有禮貌、負責任的好人，大家都會喜歡你，把你當成好兄弟。這教我們，只要真心待人，你永遠不會孤單。",
     flashcards: [
-      { id: "f10-5-1", term: "圭", definition: "古代帝王或諸侯在舉行典禮時拿的長條形玉器" },
-      { id: "f10-5-2", term: "蹜蹜", definition: "小步快走的樣子（音同縮）" },
-      { id: "f10-5-3", term: "私覿", definition: "私下會見（音同迪）" }
+      { id: "f12-5-1", term: "四海之內皆兄弟", definition: "只要待人真誠，天下的人都可以成為好朋友" },
+      { id: "f12-5-2", term: "敬而無失", definition: "做事認真、謹慎而沒有過失" }
     ]
   },
   {
-    id: "10-6", world: 10, stage: 6, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "君子不以紺緅飾", englishTitle: "Clothing Colors",
-    originalText: "君子不以紺緅飾，紅紫不以為褻服。當暑，袗絺綌，必表而出之。緇衣，羔裘；素衣，麑裘；黃衣，狐裘。褻裘長，短右袂。必有寢衣，長一身有半。狐貉之厚以居。去喪，無所不佩。非帷裳，必殺之。羔裘玄冠不以弔。吉月，必朝服而朝。",
-    translation: "君子不用深青透紅或紫紅色的布鑲邊，紅紫色不用來做便服。夏天穿粗麻或細麻的單衣，一定要套在外面。黑衣服配羊皮袍，白衣服配鹿皮袍，黃衣服配狐皮袍。家常的皮袍做得長一些，右袖短一些。睡衣長度是身高的一倍半。用狐貉的厚毛皮做坐墊。喪期過後，可以佩戴各種飾物。不是正式的禮服，一定要裁剪整齊。不穿黑羊皮袍、不戴黑帽子去弔喪。每月初一，一定穿上朝服去朝見。」",
-    storyTitle: "孔子的穿搭指南",
-    storyContent: "孔子對穿衣服很有研究！他覺得衣服的顏色、材質和場合都要搭配好。比如弔喪不能穿得太漂亮，初一要穿得最正式。這不是愛漂亮，而是一種對生活的講究和對場合的尊重。",
+    id: "12-6", world: 12, stage: 6, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "浸潤之譖", englishTitle: "Slander and Complaints",
+    originalText: "子張問明。子曰：「浸潤之譖，膚受之愬，不行焉，可謂明也已矣。浸潤之譖，膚受之愬，不行焉，可謂遠也已矣。」",
+    translation: "子張問什麼是明察。孔子說：「像水滲透一樣的讒言，像切膚之痛一樣的投訴，在你這裡都行不通，那就可以說是明察了。能做到這樣，也可以說是眼光遠大了。」",
+    storyTitle: "聰明的判斷力",
+    storyContent: "孔子提醒我們：有些人會在你耳邊慢慢說別人的壞話（讒言），或者裝得很可憐來告狀。如果你能冷靜思考，不隨便相信這些話，你就是一個聰明、有遠見的人。這教我們不要聽信謠言。",
     flashcards: [
-      { id: "f10-6-1", term: "褻服", definition: "在家穿的便服（音同謝）" },
-      { id: "f10-6-2", term: "絺綌", definition: "細麻與粗麻布（音同吃細）" },
-      { id: "f10-6-3", term: "弔", definition: "弔喪、祭奠死者" }
+      { id: "f12-6-1", term: "浸潤之譖", definition: "像水滲透一樣慢慢影響人的壞話（譖音同怎）" },
+      { id: "f12-6-2", term: "膚受之愬", definition: "像切膚之痛一樣急迫的投訴（愬音同訴）" }
     ]
   },
   {
-    id: "10-7", world: 10, stage: 7, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "食不厭精", englishTitle: "Food Etiquette",
-    originalText: "食不厭精，膾不厭細。食饐而餲，魚餒而肉敗，不食。色惡，不食。臭惡，不食。失飪，不食。不時，不食。割不正，不食。不得其醬，不食。肉雖多，不使勝食氣。唯酒無量，不及亂。沽酒市脯，不食。不撤薑食，不多食。",
-    translation: "糧食不嫌精緻，肉不嫌切得細。糧食發霉變味，魚肉腐爛，不吃。顏色不好看，不吃。氣味不好，不吃。烹調得不好，不吃。不到吃飯時間，不吃。肉切得不方正，不吃。調味醬不對，不吃。肉雖然多，但不超過主食。只有酒沒有限量，但絕不喝醉。外面買來的酒和熟肉，不吃。每餐不撤去生薑，但也不多吃。」",
-    storyTitle: "健康小管家",
-    storyContent: "孔子對飲食非常挑剔，但他不是為了享受，而是為了「健康」。他不吃不新鮮、沒煮好、或來源不明的食物。而且他喝酒很有節制，絕對不會喝醉。這教我們要愛護自己的身體，吃得健康。",
+    id: "12-7", world: 12, stage: 7, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "足食，足兵", englishTitle: "Food, Weapons, and Trust",
+    originalText: "子貢問政。子曰：「足食，足兵，民信之矣。」子貢曰：「必不得已而去，於斯三者何先？」曰：「去兵。」子貢曰：「必不得已而去，於斯二者何先？」曰：「去食。自古皆有死，民無信不立。」",
+    translation: "子貢問政。孔子說：「糧食充足，軍備充足，百姓信任政府。」子貢問：「如果非去掉一項不可，先去掉哪項？」孔子說：「去掉軍備。」子貢問：「如果再去掉一項呢？」孔子說：「去掉糧食。自古以來人都會死，但如果百姓不信任政府，國家就站不住腳了。」",
+    storyTitle: "信用是國家的靈魂",
+    storyContent: "孔子覺得，一個國家最重要的不是武器或錢財，而是「信用」。如果大家都不相信政府、不相信彼此，那國家就會垮掉。這教我們，信用是做人、做事最根本的基石。",
     flashcards: [
-      { id: "f10-7-1", term: "食不厭精", definition: "糧食不嫌精緻（厭：滿足、嫌）" },
-      { id: "f10-7-2", term: "魚餒而肉敗", definition: "魚肉腐爛變質（餒音同內）" },
-      { id: "f10-7-3", term: "不及亂", definition: "不喝到醉醺醺、神志混亂的程度" }
+      { id: "f12-7-1", term: "民無信不立", definition: "如果失去百姓的信任，國家就無法生存" },
+      { id: "f12-7-2", term: "足兵", definition: "軍隊與武器充足" }
     ]
   },
   {
-    id: "10-8", world: 10, stage: 8, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "食不語，寢不言", englishTitle: "Silence at Meals and Bed",
-    originalText: "食不語，寢不言。」",
-    translation: "吃飯時不說話，睡覺時不說話。」",
-    storyTitle: "安靜的力量",
-    storyContent: "孔子認為，吃飯要專心品嚐食物，睡覺要專心休息，所以這兩個時間都不應該聊天。這教我們要專注於當下，讓身體得到最好的照顧。",
+    id: "12-8", world: 12, stage: 8, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "文猶質也", englishTitle: "Refinement and Substance",
+    originalText: "棘子成曰：「君子質而已矣，何以文為？」子貢曰：「惜乎！夫子之說君子也。駟不及舌。文猶質也，質猶文也。虎豹之鞟猶犬羊之鞟。」",
+    translation: "棘子成說：「君子只要品質好就行了，何必要那些外表的文飾呢？」子貢說：「可惜啊！您這樣談論君子。話一出口，四匹馬拉的車也追不回。文飾和品質是一樣重要的。如果把虎豹的皮毛拔光，那剩下的皮革跟狗羊的皮革也沒什麼兩樣了。」",
+    storyTitle: "內在與外在都要好",
+    storyContent: "子貢反駁別人：雖然內心善良（質）很重要，但外表的禮貌和修養（文）也同樣重要。就像老虎之所以威風，是因為牠有漂亮的斑紋。這教我們，要做一個內外兼修的人。",
     flashcards: [
-      { id: "f10-8-1", term: "食不語", definition: "吃飯時不說話（專心進食）" },
-      { id: "f10-8-2", term: "寢不言", definition: "睡覺時不說話（安靜休息）" }
+      { id: "f12-8-1", term: "駟不及舌", definition: "話一說出口，連快馬也追不回來（形容說話要慎重）" },
+      { id: "f12-8-2", term: "鞟", definition: "去毛的皮革（音同括）" }
     ]
   },
   {
-    id: "10-9", world: 10, stage: 9, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "雖疏食菜羹", englishTitle: "Gratitude Before Meals",
-    originalText: "雖疏食菜羹，瓜祭，必齊如也。」",
-    translation: "即使是粗米飯、蔬菜湯，吃飯前也一定要取出一些來祭祀，而且表情嚴肅莊重。」",
-    storyTitle: "感恩的心",
-    storyContent: "孔子就算吃最簡單的飯菜，也會在動筷子前先祭祀，感謝大自然和祖先的賜予。這教我們，不管生活富裕還是貧窮，都要有一顆感恩的心。",
+    id: "12-9", world: 12, stage: 9, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "盍徹乎", englishTitle: "Why Not Use the Tithe?",
+    originalText: "哀公問於有若曰：「年饑，用不足，如之何？」有若對曰：「盍徹乎？」曰：「二，吾猶不足，如之何其徹也？」對曰：「百姓足，君孰與不足？百姓不足，君孰與足？」",
+    translation: "魯哀公問有若：「年成不好，國庫不夠用，怎麼辦？」有若說：「為什麼不實行十分之一的稅率呢？」哀公說：「現在抽十分之二我都不夠用了，怎麼能實行十分之一呢？」有若說：「如果百姓富足，您怎麼會不夠用？如果百姓貧窮，您又怎麼能獨自富足呢？」",
+    storyTitle: "藏富於民",
+    storyContent: "有若教國王一個道理：如果百姓過得好，國家自然會強大。如果國王一直收很重的稅，讓大家變窮，那國家最後也會跟著變窮。這教我們，要懂得分享和照顧別人的利益。",
     flashcards: [
-      { id: "f10-9-1", term: "疏食", definition: "粗糙的飯食" },
-      { id: "f10-9-2", term: "齊如", definition: "莊重、嚴肅的樣子（齊通齋）" }
+      { id: "f12-9-1", term: "盍徹乎", definition: "為什麼不實行十分之一的稅法呢？（盍：何不）" },
+      { id: "f12-9-2", term: "孰與", definition: "跟誰、怎麼會" }
     ]
   },
   {
-    id: "10-10", world: 10, stage: 10, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "席不正，不坐", englishTitle: "Sitting Properly",
-    originalText: "席不正，不坐。」",
-    translation: "坐席擺得不端正，不坐。」",
-    storyTitle: "坐得正，行得端",
-    storyContent: "孔子對生活細節很要求。如果坐墊歪了，他會先把它擺正才坐下。這代表了一種「正」的態度：從小地方開始要求自己，心裡才會跟著端正。",
+    id: "12-10", world: 12, stage: 10, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "崇德辨惑", englishTitle: "Exalting Virtue",
+    originalText: "子張問崇德、辨惑。子曰：「主忠信，徙義，崇德也。愛之欲其生，惡之欲其死。既欲其生，又欲其死，是惑也。」",
+    translation: "子張問怎麼提高品德、辨別迷惑。孔子說：「以忠誠守信為主，看到正義就去做，這就是提高品德。愛一個人就希望他活得好，討厭一個人就恨不得他死掉。既要他生又要他死，這就是迷惑。」",
+    storyTitle: "冷靜的情緒管理",
+    storyContent: "孔子說，提高品德的方法就是「誠實」和「勇敢做對的事」。而且他提醒我們：不要被情緒沖昏頭，一下子愛得要命，一下子恨得要死。這教我們要保持理智，不要感情用事。",
     flashcards: [
-      { id: "f10-10-1", term: "席", definition: "古代鋪在地上坐的墊子" },
-      { id: "f10-10-2", term: "不正不坐", definition: "擺得不端正就不坐（強調規矩）" }
+      { id: "f12-10-1", term: "崇德", definition: "提高、崇尚品德" },
+      { id: "f12-10-2", term: "徙義", definition: "向正義靠攏、實踐正義（徙音同喜）" }
     ]
   },
   {
-    id: "10-11", world: 10, stage: 11, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "鄉人飲酒", englishTitle: "Drinking in the Village",
-    originalText: "鄉人飲酒，杖者出，斯出矣。鄉人儺，朝服而立於阼階。」",
-    translation: "跟鄉親們一起喝酒，要等長輩們先離開，自己才離開。鄉里舉行驅邪儀式時，他會穿著朝服莊重地站在東邊的台階上。」",
-    storyTitle: "禮讓長輩",
-    storyContent: "孔子非常尊敬長輩。在聚會中，他一定會讓老人家先走，自己才走。而且對於地方上的傳統活動，他也會穿上正式衣服參加，表示對大家和傳統的尊重。",
+    id: "12-11", world: 12, stage: 11, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "君君，臣臣", englishTitle: "Rulers and Subjects",
+    originalText: "齊景公問政於孔子。孔子對曰：「君君，臣臣，父父，子子。」公曰：「善哉！信如君不君，臣不臣，父不父，子不子，雖有粟，吾得而食諸？」",
+    translation: "齊景公問政。孔子說：「君主要像君主，臣子要像臣子，父親要像父親，兒子要像兒子。」景公說：「講得太好了！如果大家都不守本分，就算糧食再多，我能吃得安穩嗎？」",
+    storyTitle: "做好自己的角色",
+    storyContent: "孔子說，社會要和諧，每個人都要把自己的角色演好。學生要像學生，老師要像老師。如果大家都不負責任，世界就會亂成一團。這教我們要盡到自己的本分。",
     flashcards: [
-      { id: "f10-11-1", term: "杖者", definition: "拄著拐杖的老人、長輩" },
-      { id: "f10-11-2", term: "儺", definition: "古代驅除疫鬼的儀式（音同挪）" },
-      { id: "f10-11-3", term: "阼階", definition: "東邊的台階，主人站立的地方（音同做）" }
+      { id: "f12-11-1", term: "君君臣臣", definition: "每個人都應盡到自己職位或角色的責任" },
+      { id: "f12-11-2", term: "粟", definition: "糧食、小米（音同速）" }
     ]
   },
   {
-    id: "10-12", world: 10, stage: 12, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "問人於他邦", englishTitle: "Sending Greetings",
-    originalText: "問人於他邦，再拜而送之。」",
-    translation: "託人向在外國的朋友問候，要向受託者拜兩次送行。」",
-    storyTitle: "真誠的託付",
-    storyContent: "孔子請人幫忙帶信或問候時，會非常客氣地向那個人敬禮。因為他覺得麻煩別人是一件大事，必須展現出最高的誠意。這教我們，拜託別人幫忙時要有禮貌。",
+    id: "12-12", world: 12, stage: 12, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "片言可以折獄", englishTitle: "Settling Disputes",
+    originalText: "子曰：「片言可以折獄者，其由也與！」子路無宿諾。」",
+    translation: "孔子說：「只聽單方面的話就能判斷案件的，大概只有仲由（子路）吧！」子路從來不把答應別人的事拖到第二天。」",
+    storyTitle: "說到做到的子路",
+    storyContent: "子路是一個非常有信用的人。他答應別人的事，一定會立刻去做，絕對不拖延。所以大家都非常信任他。這教我們，信用是靠「行動」累積出來的，不要開空頭支票。",
     flashcards: [
-      { id: "f10-12-1", term: "他邦", definition: "別的國家、外國" },
-      { id: "f10-12-2", term: "再拜", definition: "拜兩次（表示極其敬重）" }
+      { id: "f12-12-1", term: "折獄", definition: "判斷案件、斷案" },
+      { id: "f12-12-2", term: "無宿諾", definition: "不把答應的事留到隔夜（指立刻執行）" }
     ]
   },
   {
-    id: "10-13", world: 10, stage: 13, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "康子饋藥", englishTitle: "Medicine from Kang Zi",
-    originalText: "康子饋藥，拜而受之。曰：「丘未達，不敢嘗。」",
-    translation: "季康子送來藥品，孔子拜謝後接受了。但他說：「我還不了解這藥的藥性，不敢隨便嘗試。」",
-    storyTitle: "謹慎對待藥物",
-    storyContent: "雖然是高官送的禮物，孔子很有禮貌地收下，但他也非常理智：不知道是什麼藥，絕對不亂吃。這教我們，對健康要負責任，不能因為是別人送的就隨便嘗試。",
+    id: "12-13", world: 12, stage: 13, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "聽訟，吾猶人也", englishTitle: "Hearing Lawsuits",
+    originalText: "子曰：「聽訟，吾猶人也，必也使無訟乎！」",
+    translation: "孔子說：「審理訴訟，我跟別人差不多。但我最希望的是：讓世界上根本沒有訴訟發生！」",
+    storyTitle: "沒有爭吵的世界",
+    storyContent: "孔子覺得，打官司雖然能分出誰對誰錯，但最好的方法是教大家學會互相禮讓、互相關愛。如果大家都不吵架，那就不需要法官了。這教我們，和諧比爭贏更重要。",
     flashcards: [
-      { id: "f10-13-1", term: "饋", definition: "贈送（音同愧）" },
-      { id: "f10-13-2", term: "未達", definition: "不了解、不明白" }
+      { id: "f12-13-1", term: "聽訟", definition: "審理官司、訴訟" },
+      { id: "f12-13-2", term: "無訟", definition: "沒有爭端、沒有官司" }
     ]
   },
   {
-    id: "10-14", world: 10, stage: 14, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "入公門，鞠躬如也", englishTitle: "Entering the Palace Gate",
-    originalText: "入公門，鞠躬如也，如不容。立不中門，行不履閾。過位，色勃如也，足躩如也，其言似不足者。攝齊升堂，鞠躬如也，屏氣似不息者。出，降一等，逞顏色，怡怡如也。沒階，趨進，翼如也。復其位，踧踖如也。」",
-    translation: "進入宮門時，彎著腰，好像門太小進不去一樣。站立時不站在門中間，走路時不踩門檻。經過國君的座位，神色莊重，腳步輕快，說話聲音低微。提著衣服下擺上堂，彎著腰，屏住呼吸好像沒在喘氣。出來時，下了一級台階，神色放鬆，顯得輕鬆愉快。走完台階，快步前進，像鳥兒展翅。回到位置，依然恭敬謹慎。」",
-    storyTitle: "宮廷裡的優雅舞步",
-    storyContent: "孔子進宮辦公時，每一個動作都像在跳舞一樣精準。他非常尊敬這個神聖的地方，所以會屏住呼吸、小步快走。這展現了他對國家和制度的最高敬畏。",
+    id: "12-14", world: 12, stage: 14, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "居之無倦", englishTitle: "Serving Without Weariness",
+    originalText: "子張問政。子曰：「居之無倦，行之以忠。」",
+    translation: "子張問政。孔子說：「在位時不懈怠，執行任務時要忠誠。」",
+    storyTitle: "認真工作的秘訣",
+    storyContent: "孔子教子路怎麼當一個好官：第一，不要偷懶，要保持熱情；第二，對工作要真心誠意。這教我們，不管做什麼事，只要不懈怠、夠忠誠，就一定能做好。",
     flashcards: [
-      { id: "f10-14-1", term: "履閾", definition: "踩門檻（閾音同玉）" },
-      { id: "f10-14-2", term: "攝齊", definition: "提起衣服的下擺（齊音同資）" },
-      { id: "f10-14-3", term: "怡怡如", definition: "輕鬆愉快的樣子" }
+      { id: "f12-14-1", term: "無倦", definition: "不倦怠、不偷懶、不厭倦" },
+      { id: "f12-14-2", term: "行之以忠", definition: "用忠誠、負責的態度去執行" }
     ]
   },
   {
-    id: "10-15", world: 10, stage: 15, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "朋友死，無所歸", englishTitle: "A Friend's Death",
-    originalText: "朋友死，無所歸，曰：「於我殯。」朋友之饋，雖車馬，非祭肉，不拜。」",
-    translation: "朋友去世了，如果沒有親人收殮，孔子說：「由我來辦理喪事。」朋友送的禮物，即使是車馬，如果不是祭肉，他也不會行大禮跪拜。」",
-    storyTitle: "真朋友的義氣",
-    storyContent: "孔子對朋友非常有義氣。如果朋友沒人照顧，他會主動承擔責任。而且他覺得朋友之間送禮物是很平常的事，不需要太過客氣，除非是神聖的祭肉。這教我們，真正的友誼在於行動，而不是表面的客套。",
+    id: "12-15", world: 12, stage: 15, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "博學於文", englishTitle: "Extensive Learning",
+    originalText: "子曰：「博學於文，約之以禮，亦可以弗畔矣夫！」",
+    translation: "孔子說：「廣泛地學習文化知識，再用禮儀來約束自己，也就可以不背離正道了。」",
+    storyTitle: "學習的兩大支柱",
+    storyContent: "孔子說，變強大的方法有兩個：一是「多讀書」，增加知識；二是「守規矩」，不亂來。這教我們，聰明的人如果不守規矩會變壞，守規矩的人如果不讀書會變笨，兩者都要兼顧喔！",
     flashcards: [
-      { id: "f10-15-1", term: "無所歸", definition: "沒有親人、沒有依靠" },
-      { id: "f10-15-2", term: "於我殯", definition: "在我這裡辦理喪事（殯音同賓）" }
+      { id: "f12-15-1", term: "博學於文", definition: "廣泛地學習各種文化知識" },
+      { id: "f12-15-2", term: "弗畔", definition: "不背離、不違反（正道）（音同服判）" }
     ]
   },
   {
-    id: "10-16", world: 10, stage: 16, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "寢不尸", englishTitle: "Sleeping and Sitting",
-    originalText: "寢不尸，居不容。」",
-    translation: "睡覺時不像素食那樣挺直（像死人），在家閒居時不刻意擺出莊重的儀態。」",
-    storyTitle: "自然的放鬆",
-    storyContent: "孔子雖然很講禮貌，但他不古板。睡覺時他會讓身體自然彎曲，在家裡也會放鬆休息，不會整天繃著臉。這教我們，禮儀是為了生活更美好，而不是為了讓自己變得很累。",
+    id: "12-16", world: 12, stage: 16, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "君子成人之美", englishTitle: "Helping Others Succeed",
+    originalText: "子曰：「君子成人之美，不成人之惡。小人反是。」",
+    translation: "孔子說：「君子成全別人的好事，不促成別人的壞事。小人則相反。」",
+    storyTitle: "幫別人一把",
+    storyContent: "孔子說，如果你看到同學想做好事，你應該去幫他；如果你看到他想做壞事，你應該阻止他。這就是「成人之美」。這教我們要有一顆善良的心，多給別人正能量。",
     flashcards: [
-      { id: "f10-16-1", term: "不尸", definition: "不像素食那樣挺直（古代祭祀時代表死者的人叫尸）" },
-      { id: "f10-16-2", term: "不容", definition: "不刻意追求莊重的儀態（指放鬆）" }
+      { id: "f12-16-1", term: "成人之美", definition: "成全別人的好事、美德" },
+      { id: "f12-16-2", term: "反是", definition: "與此相反" }
     ]
   },
   {
-    id: "10-17", world: 10, stage: 17, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "見齊衰者", englishTitle: "Meeting Those in Mourning",
-    originalText: "見齊衰者，雖狎，必變。見冕者與瞽者，雖褻，必以貌。凶服者式之，式負版者。有盛饌，必變色而作。迅雷風烈必變。」",
-    translation: "見到穿喪服的人，即使很親近，也一定會變得莊重。見到戴禮帽的官員和盲人，即使很熟悉，也一定會有禮貌。在車上遇到穿喪服的人或背著文書的人，會扶著車前橫木表示敬意。看到豐盛的飯菜，一定會神色莊重地站起來表示感謝。遇到雷聲大、風很猛，也一定會神色莊重（表示對自然的敬畏）。」",
-    storyTitle: "對生命的敬畏",
-    storyContent: "孔子對不幸的人、有殘疾的人、或是大自然的力量，都抱持著深深的敬意。他不會因為跟對方熟就隨便開玩笑。這教我們，要有一顆柔軟、體貼的心。",
+    id: "12-17", world: 12, stage: 17, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "政者，正也", englishTitle: "Governance is Rectitude",
+    originalText: "季康子問政於孔子。孔子對曰：「政者，正也。子帥以正，孰敢不正？」",
+    translation: "季康子問政。孔子說：「政就是正的意思。如果您帶頭走正路，誰敢不走正路呢？」",
+    storyTitle: "帶頭做榜樣",
+    storyContent: "孔子說，領導者就像領頭羊。如果班長自己不遲到，同學就不敢遲到；如果國王不貪錢，百姓就不會偷竊。這教我們，「身教」比「言教」更有力量。",
     flashcards: [
-      { id: "f10-17-1", term: "齊衰", definition: "古代的一種喪服（音同資崔）" },
-      { id: "f10-17-2", term: "瞽者", definition: "盲人（音同古）" },
-      { id: "f10-17-3", term: "式", definition: "扶著車前的橫木表示敬意（音同適）" }
+      { id: "f12-17-1", term: "政者正也", definition: "政治的本質就是公正、端正" },
+      { id: "f12-17-2", term: "帥以正", definition: "帶頭示範正確的行為" }
     ]
   },
   {
-    id: "10-18", world: 10, stage: 18, book: "鄉黨第十", englishBook: "Xiang Dang X", title: "升車，必正立", englishTitle: "Getting into a Carriage",
-    originalText: "升車，必正立，執綏。車中，不內顧，不疾言，不親指。」",
-    translation: "上車時，一定站正，拉好扶手繩。在車中，不東張西望，不快速說話，不指指點點。」",
-    storyTitle: "乘車禮儀",
-    storyContent: "孔子坐車時也非常有修養。他不會在車上大聲喧嘩或對路人指指點點。這展現了一種安靜、穩重的氣質。這教我們，在公共交通工具上也要保持禮貌。",
+    id: "12-18", world: 12, stage: 18, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "子為善，而民善矣", englishTitle: "Leading to Goodness",
+    originalText: "季康子患盜，問於孔子。孔子對曰：「苟子之不欲，雖賞之不竊。」",
+    translation: "季康子擔心小偷太多，問孔子。孔子說：「如果您自己不貪心，就算獎勵他們去偷，他們也不會去偷的。」",
+    storyTitle: "貪心的源頭",
+    storyContent: "孔子說，如果上面的官員都很貪心、愛錢，那百姓就會跟著學壞。所以要解決小偷問題，官員要先變得清廉。這教我們，環境的風氣是由大家共同建立的，尤其是領袖。",
     flashcards: [
-      { id: "f10-18-1", term: "執綏", definition: "拉著上車用的扶手繩（音同隨）" },
-      { id: "f10-18-2", term: "不內顧", definition: "不東張西望、回頭看" }
+      { id: "f12-18-1", term: "患盜", definition: "擔心、憂慮小偷太多" },
+      { id: "f12-18-2", term: "不欲", definition: "不貪心、沒有過分的欲望" }
+    ]
+  },
+  {
+    id: "12-19", world: 12, stage: 19, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "君子之德風", englishTitle: "Virtue is Like the Wind",
+    originalText: "季康子問政於孔子曰：「如殺無道，以就有道，何如？」孔子對曰：「子為政，焉用殺？子欲善，而民善矣。君子之德風，小人之德草。草上之風，必偃。」",
+    translation: "季康子問：「如果殺掉壞人來親近好人，怎麼樣？」孔子說：「您治理國家，哪裡用得著殺人？只要您想做好事，百姓就會跟著做好事。君子的品德像風，小人的品德像草。風吹在草上，草一定會順著風倒。」",
+    storyTitle: "風與草的對話",
+    storyContent: "孔子用了一個很美的比喻：好人的影響力就像風，大家就像草。風往哪裡吹，草就往哪裡倒。所以，只要我們堅持做對的事，身邊的人也會慢慢被我們影響喔！",
+    flashcards: [
+      { id: "f12-19-1", term: "焉用殺", definition: "哪裡用得著殺人呢？" },
+      { id: "f12-19-2", term: "必偃", definition: "一定會倒下、順從（音同眼）" }
+    ]
+  },
+  {
+    id: "12-20", world: 12, stage: 20, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "察言而觀色", englishTitle: "Observing Words and Expressions",
+    originalText: "子張問：「士何如斯可謂之達矣？」子曰：「何哉，爾所謂達者？」子張對曰：「在邦必聞，在家必聞。」子曰：「是聞也，非達也。夫達也者，質直而好義，察言而觀色，慮以下人。在邦必達，在家必達。夫聞也者，色取仁而行違，居之不疑。在邦必聞，在家必聞。」",
+    translation: "子張問：「讀書人要怎樣才算發達？」孔子問：「你說的發達是什麼意思？」子張說：「在國家有名聲，在家族有名聲。」孔子說：「那是出名，不是發達。真正的發達，是品質正直且愛好正義，善於觀察別人的言語神色，對人謙虛。而出名的人，只是表面裝得仁慈，行為卻相反，還自以為是。這種人雖然有名，卻不是真正的發達。」",
+    storyTitle: "出名不等於成功",
+    storyContent: "孔子教子張：不要只追求「有名」（聞），要追求「實力」和「品德」（達）。有些人雖然很有名，但其實是假裝出來的。真正的成功是內心正直、懂得體諒別人。這教我們不要愛慕虛榮。",
+    flashcards: [
+      { id: "f12-20-1", term: "察言觀色", definition: "觀察別人的言語和神色（指體察民情或體諒他人）" },
+      { id: "f12-20-2", term: "下人", definition: "對人謙虛、不擺架子" }
+    ]
+  },
+  {
+    id: "12-21", world: 12, stage: 21, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "樊遲從遊於舞雩之下", englishTitle: "Walking Under the Rain Altar",
+    originalText: "樊遲從遊於舞雩之下，曰：「敢問崇德、修慝、辨惑。」子曰：「大哉問！先事後得，非崇德與？攻其惡，無攻人之惡，非修慝與？一朝之忿，忘其身，以及其親，非惑與？」",
+    translation: "樊遲陪孔子在祭壇下散步，問怎麼提高品德、改正錯誤、辨別迷惑。孔子說：「問得好！先付出努力再考慮收穫，這不是提高品德嗎？多反省自己的錯，少批評別人的錯，這不是改正錯誤嗎？因為一時衝動就忘記危險，甚至連累父母，這不是迷惑嗎？」",
+    storyTitle: "散步時的智慧",
+    storyContent: "孔子在散步時教了樊遲三個錦囊：\n1. 努力工作，不急著要獎勵。\n2. 多看自己的缺點，少看別人的缺點。\n3. 不要衝動，衝動會害了自己和家人。這教我們要腳踏實地、自我反省和冷靜思考。",
+    flashcards: [
+      { id: "f12-21-1", term: "修慝", definition: "改正邪惡的念頭、修養品德（慝音同特）" },
+      { id: "f12-21-2", term: "一朝之忿", definition: "一時的憤怒、衝動" }
+    ]
+  },
+  {
+    id: "12-22", world: 12, stage: 22, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "樊遲問仁", englishTitle: "Fan Chi Asks About Benevolence",
+    originalText: "樊遲問仁。子曰：「愛人。」問知。子曰：「知人。」樊遲未達。子曰：「舉直錯諸枉，能使枉者直。」",
+    translation: "樊遲問什麼是仁。孔子說：「愛人。」問什麼是智。孔子說：「了解人。」樊遲不明白。孔子說：「選拔正直的人，放在不正直的人上面，就能使不正直的人也變得正直。」",
+    storyTitle: "愛與智慧",
+    storyContent: "孔子說，最偉大的品德就是「愛人」，最聰明的智慧就是「看清人」。如果你能讓好人去帶領壞人，那壞人也會慢慢變好。這教我們，好的領導和榜樣能改變整個世界。",
+    flashcards: [
+      { id: "f12-22-1", term: "知人", definition: "了解人的品德和能力（知音同智）" },
+      { id: "f12-22-2", term: "舉直錯諸枉", definition: "選拔正直的人，安置在邪曲的人之上（錯通措，放置）" }
+    ]
+  },
+  {
+    id: "12-23", world: 12, stage: 23, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "忠告而善道之", englishTitle: "Advising Friends",
+    originalText: "子貢問友。子曰：「忠告而善道之，不可則止，毋自辱焉。」",
+    translation: "子貢問怎麼對待朋友。孔子說：「忠心地勸告並耐心地引導他，如果他不聽，就停止，不要自取其辱。」",
+    storyTitle: "交友的界線",
+    storyContent: "孔子說，當朋友做錯事時，我們要真心提醒他。但如果他堅持不聽，我們也不要一直唸，否則會讓朋友變敵人。這教我們，友誼要建立在互相尊重的基礎上。",
+    flashcards: [
+      { id: "f12-23-1", term: "善道之", definition: "耐心地引導他（道通導）" },
+      { id: "f12-23-2", term: "毋自辱", definition: "不要自取其辱" }
+    ]
+  },
+  {
+    id: "12-24", world: 12, stage: 24, book: "顏淵第十二", englishBook: "Yan Yuan XII", title: "以文會友", englishTitle: "Meeting Friends Through Culture",
+    originalText: "曾子曰：「君子以文會友，以友輔仁。」",
+    translation: "曾子說：「君子透過文化知識來結交朋友，透過朋友的幫助來增進仁德。」",
+    storyTitle: "一起變強的好朋友",
+    storyContent: "曾子覺得，最好的朋友是那種可以一起讀書、一起討論怎麼變更好的人。大家互相鼓勵、互相學習，品德就會越來越進步。這教我們，要結交志同道合的好朋友。",
+    flashcards: [
+      { id: "f12-24-1", term: "以文會友", definition: "透過文化、學問來結交朋友" },
+      { id: "f12-24-2", term: "以友輔仁", definition: "透過朋友的幫助來提升自己的品德" }
     ]
   }
 ];
