@@ -1,21 +1,20 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-import fs from 'fs';
-import path from 'path';
+# Run and deploy your AI Studio app
 
-const lessonsDir = './src/data/lessons';
-const files = fs.readdirSync(lessonsDir).filter(f => f.endsWith('.ts'));
+This contains everything you need to run your app locally.
 
-let allText = '';
-files.forEach(file => {
-  const content = fs.readFileSync(path.join(lessonsDir, file), 'utf-8');
-  const matches = content.match(/originalText:\s*"([^"]*)"/g);
-  if (matches) {
-    matches.forEach(m => {
-      const text = m.match(/"([^"]*)"/)[1];
-      allText += text;
-    });
-  }
-});
+View your app in AI Studio: https://ai.studio/apps/704191e5-7560-4489-a208-0562713487cf
 
-const uniqueChars = Array.from(new Set(allText.split(''))).sort();
-console.log(uniqueChars.join(''));
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

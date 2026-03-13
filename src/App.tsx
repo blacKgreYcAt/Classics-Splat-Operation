@@ -16,6 +16,7 @@ function App() {
   const [currentLesson, setCurrentLesson] = useState<Lesson | null>(null);
   const [completedStages, setCompletedStages] = useState<string[]>([]);
   const [showSettings, setShowSettings] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const [zhuyinSettings, setZhuyinSettings] = useState<ZhuyinSettings>({
     title: true,
     stage: true,
@@ -55,7 +56,18 @@ function App() {
       if (!map.has(l.world)) map.set(l.world, l.book);
     });
     return map;
-  }, []);
+  }, [lessons]);
+
+  // Global search results
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    const allLessons = [...analectsLessons, ...shishuoProcessedLessons];
+    return allLessons.filter(l => 
+      l.originalText.includes(searchQuery) || 
+      l.title.includes(searchQuery) ||
+      l.translation.includes(searchQuery)
+    );
+  }, [searchQuery]);
 
   if (view === 'text-select') {
     return (
@@ -109,6 +121,76 @@ function App() {
           </button>
         </div>
 
+        {/* Global Search Bar */}
+        <div className="max-w-4xl w-full mb-8">
+          <div className="relative flex items-center">
+            <input
+              type="text"
+              placeholder="搜尋古文關鍵字..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full bg-white border-8 border-ink-black p-4 md:p-6 text-xl md:text-2xl font-bold brutal-shadow focus:outline-none focus:ring-4 focus:ring-splat-yellow text-ink-black"
+            />
+            <div className="absolute right-6 pointer-events-none flex items-center gap-2">
+              {searchQuery && (
+                <button 
+                  onClick={() => setSearchQuery('')}
+                  className="pointer-events-auto bg-splat-pink text-white px-2 py-1 text-sm font-bold border-2 border-ink-black"
+                >
+                  清除
+                </button>
+              )}
+              <span className="bg-ink-black text-white px-3 py-1 font-display text-sm md:text-base transform -rotate-3">搜尋</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Inline Search Results */}
+        {searchQuery.trim() !== '' && (
+          <div className="max-w-4xl w-full mb-12 bg-white border-8 border-ink-black p-6 brutal-shadow max-h-[60vh] overflow-y-auto">
+            <div className="flex justify-between items-center mb-6">
+              <h2 className="text-2xl font-display text-splat-yellow bg-ink-black px-4 py-2 border-4 border-white transform skew-x-3">
+                SEARCH RESULTS: {searchResults.length}
+              </h2>
+            </div>
+            
+            <div className="space-y-4">
+              {searchResults.map((lesson) => {
+                const isShishuo = lesson.id.startsWith('shishuo');
+                return (
+                  <button
+                    key={lesson.id}
+                    onClick={() => {
+                      setCurrentText(isShishuo ? 'shishuo' : 'analects');
+                      setCurrentLesson(lesson);
+                      setCurrentWorld(lesson.world);
+                      setViewState('story');
+                    }}
+                    className="w-full border-4 border-ink-black p-4 text-left bg-gray-50 hover:bg-splat-yellow transition-colors brutal-shadow-sm text-ink-black"
+                  >
+                    <div className="flex justify-between items-start mb-2">
+                      <span className={`font-display text-xs px-2 py-1 text-white ${isShishuo ? 'bg-splat-cyan' : 'bg-splat-pink'}`}>
+                        {isShishuo ? '世說新語' : '論語'}
+                      </span>
+                      <span className="text-xs font-mono opacity-50">WORLD {lesson.world} - STAGE {lesson.stage}</span>
+                    </div>
+                    <h3 className="text-lg font-bold mb-1">{lesson.title}</h3>
+                    <p className="text-sm text-gray-600 line-clamp-2 italic">「{lesson.originalText}」</p>
+                    <div className="mt-2 text-xs font-bold text-ink-black/60 uppercase tracking-tighter">
+                      {lesson.book}
+                    </div>
+                  </button>
+                );
+              })}
+              {searchResults.length === 0 && (
+                <div className="text-center py-10 opacity-50 font-display text-ink-black">
+                  NO RESULTS FOUND
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* Zhuyin Settings Panel */}
         <div className="max-w-4xl w-full">
           <button 
@@ -144,7 +226,7 @@ function App() {
         </div>
 
         <footer className="mt-16 text-center text-white/50 font-display">
-          <p>2026 CLASSICS SPLAT OPERATION-CONCEPT BY REX CHU</p>
+          <p>2026 BERK STUDIO 經典大作戰 CLASSICS SPLAT OPERATION-Concept by Rex CHU <a href="mailto:glitch.remover_1i@icloud.com" className="underline hover:text-splat-pink transition-colors">聯絡信箱</a></p>
         </footer>
       </div>
     );
@@ -225,6 +307,10 @@ function App() {
             </div>
           </section>
         </main>
+
+        <footer className="max-w-4xl mx-auto mt-16 text-center text-white/50 font-display">
+          <p>2026 BERK STUDIO 經典大作戰 CLASSICS SPLAT OPERATION-Concept by Rex CHU <a href="mailto:glitch.remover_1i@icloud.com" className="underline hover:text-splat-pink transition-colors">聯絡信箱</a></p>
+        </footer>
       </div>
     );
   }
@@ -297,7 +383,7 @@ function App() {
       </main>
       
       <footer className="max-w-6xl mx-auto mt-20 text-center text-white/50 font-display">
-        <p>2026 {appEnglishTitle}-CONCEPT BY REX CHU</p>
+        <p>2026 BERK STUDIO 經典大作戰 CLASSICS SPLAT OPERATION-Concept by Rex CHU <a href="mailto:glitch.remover_1i@icloud.com" className="underline hover:text-splat-pink transition-colors">聯絡信箱</a></p>
       </footer>
     </div>
   );
